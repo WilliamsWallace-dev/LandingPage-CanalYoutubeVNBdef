@@ -1,0 +1,91 @@
+// Colors of project
+
+// Brand-colors
+$primary-1: #DB9865;
+$primary-2: #C27C46;
+$primary-3: #A8622C;
+
+.primary-1{
+    color: $primary-1;
+}
+.primary-2{
+    color: $primary-2;
+}
+.primary-3{
+    color: $primary-3;
+}
+
+$secondary-1: #8F6442;
+$secondary-2: #764C2B;
+$secondary-3: #5C3618;
+
+.secondary-1{
+    color: $secondary-1;
+}
+.secondary-2{
+    color: $secondary-2;
+}
+.secondary-3{
+    color: $secondary-3;
+}
+
+// Neutral-colors
+$black-1: #2B1D14;
+$black-2: #180F09;
+$black-3: #0A0603;
+
+.black-1{
+    color: $black-1;
+}
+.black-2{
+    color: $black-2;
+}
+.black-3{
+    color: $black-3;
+}
+
+$white-1: #F7F4F2;
+$white-2: #F3EDE9;
+$white-3: #E5D9D1;
+
+.white-1{
+    color: $white-1;
+}
+.white-2{
+    color: $white-2;
+}
+.white-3{
+    color: $white-3;
+}
+
+// Gray Scale
+$gray-1: #827D79;
+$gray-2: #706760;
+$gray-3: #5E534B;
+// $gray-4: #767576;
+// $gray-5: #868587;
+// $gray-6: #969597;
+// $gray-7: #a6a6a7;
+
+.gray-1{
+    color: $gray-1;
+}
+.gray-2{
+    color: $gray-2;
+}
+.gray-3{
+    color: $gray-3;
+}
+
+// Auxiliary colors
+$red-normal: #eb3d3d;
+$red-dark: #d03333;
+$red-light: #f05454;
+
+$green-normal: #32d957;
+$green-dark: #28bb49;
+$green-light: #50e170;
+
+$yellow-normal: #ffce52;
+$yellow-dark: #d9b043;
+$yellow-light: #ffd76b;

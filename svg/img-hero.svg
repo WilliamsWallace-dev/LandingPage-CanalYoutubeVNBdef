@@ -1,0 +1,16 @@
+<svg width="341" height="166" viewBox="0 0 341 166" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="img-hero">
+<path id="Vector 74" d="M97.8941 67.3817L0 165.276H340.722L227.572 52.1255L155.105 124.593L97.8941 67.3817Z" fill="url(#paint0_linear_316_173)"/>
+<circle id="Ellipse 159" cx="144.935" cy="26.6984" r="26.6984" fill="url(#paint1_linear_316_173)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_316_173" x1="-1.5616e-06" y1="108.081" x2="343.011" y2="108.081" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DB9865"/>
+<stop offset="1" stop-color="#A8622C" stop-opacity="0.48"/>
+</linearGradient>
+<linearGradient id="paint1_linear_316_173" x1="118.236" y1="26.4062" x2="171.992" y2="26.4062" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DB9865"/>
+<stop offset="1" stop-color="#A8622C" stop-opacity="0.48"/>
+</linearGradient>
+</defs>
+</svg>

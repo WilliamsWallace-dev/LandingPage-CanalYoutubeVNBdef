@@ -1,0 +1,157 @@
+.logoGA {
+  max-width: 688px ;
+  display: block;
+  margin: 0 auto;
+  padding: 32px 0 16px 0;
+}
+
+.icon-network{
+  max-width: 40px;
+
+  cursor: pointer;
+
+  transition: .3s ease;
+  &:hover{
+    filter: drop-shadow(0px -12px 51px rgba(219, 152, 101, 0.19)) 
+    drop-shadow(0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096)) 
+    drop-shadow(0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695)) 
+    drop-shadow(0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048)) 
+    drop-shadow(0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035));
+    transform: scale(1.02) translate3d(0,-2px,0);
+}
+}
+
+.title-card{
+  position: relative;
+  &::after{
+    content: '';
+    display: block;
+
+    width: 50%;
+    height: 2px;
+
+    position: absolute;
+    left: 25%;
+    top: 110%;
+
+    background: linear-gradient(90deg, #DB9865 0%, rgba(168, 98, 44, 0.48) 100.67%);
+  }
+}
+
+.icon-content-card{
+  width: 224px;
+}
+
+.bg-check{
+  position: relative;
+  &::before{
+    content:'';
+    display: inline-block;
+
+    width: 12px;
+    height: 9.74px;
+
+    margin-right: .5rem;
+
+    background : url("../../svg/icon-check.svg") center center;
+    background-repeat: no-repeat;
+  }
+}
+
+//Path 
+.path-video{
+  width: 712px ;
+  height: 400px;
+
+  border: 1px solid rgba(194, 124, 70, 0.64);
+  border-radius: 24px;
+  background: linear-gradient(90deg, #DB9865 0%, rgba(168, 98, 44, 0.48) 100.67%);
+
+  box-shadow: 0px 51px 126px rgba(139, 9, 48, 0.1),
+   0px 18.6158px 45.9921px rgba(139, 9, 48, 0.0689982),
+    0px 9.03764px 22.3283px rgba(139, 9, 48, 0.0556291),
+     0px 4.43042px 10.9457px rgba(139, 9, 48, 0.0443709),
+      0px 1.7518px 4.32796px rgba(139, 9, 48, 0.0310018);
+
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 30%;
+
+    width: 240px;
+    height: 240px;
+
+    background: url("../../svg/icon-play.svg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+}
+//Content grid
+
+.icon-circleBlur{
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-icon-check {
+  &::after {
+    background-image: url("../svg/icon-check.svg");
+    background-size: cover;
+    transition: 0.5s ease;
+    cursor: pointer;
+    filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+    width: 40px;
+    height: 40px;
+
+    top: 16px;
+    left: 8px;
+  }
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}

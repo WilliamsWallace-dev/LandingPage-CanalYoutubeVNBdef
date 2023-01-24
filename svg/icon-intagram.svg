@@ -1,0 +1,23 @@
+<svg viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-intagram">
+<g id="Group">
+<path id="Vector" d="M17.8828 0.258789H3.91731C2.11763 0.258789 0.658691 1.71772 0.658691 3.51741V17.4829C0.658691 19.2826 2.11763 20.7415 3.91731 20.7415H17.8828C19.6825 20.7415 21.1415 19.2826 21.1415 17.4829V3.51741C21.1415 1.71772 19.6825 0.258789 17.8828 0.258789Z" stroke="url(#paint0_linear_316_180)" stroke-width="1.86207" stroke-linecap="round"/>
+<path id="Vector_2" d="M10.9001 14.6899C13.214 14.6899 15.0898 12.8141 15.0898 10.5002C15.0898 8.18632 13.214 6.31055 10.9001 6.31055C8.58622 6.31055 6.71045 8.18632 6.71045 10.5002C6.71045 12.8141 8.58622 14.6899 10.9001 14.6899Z" stroke="url(#paint1_linear_316_180)" stroke-width="1.86207" stroke-linecap="round"/>
+<path id="Vector_3" d="M18.1155 4.44831C18.1155 5.09105 17.5945 5.6121 16.9517 5.6121C16.309 5.6121 15.7879 5.09105 15.7879 4.44831C15.7879 3.80556 16.309 3.28452 16.9517 3.28452C17.5945 3.28452 18.1155 3.80556 18.1155 4.44831Z" stroke="url(#paint2_linear_316_180)" stroke-width="0.465517"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_316_180" x1="0.658691" y1="10.3881" x2="21.279" y2="10.3881" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DB9865"/>
+<stop offset="1" stop-color="#A8622C" stop-opacity="0.48"/>
+</linearGradient>
+<linearGradient id="paint1_linear_316_180" x1="6.71045" y1="10.4543" x2="15.146" y2="10.4543" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DB9865"/>
+<stop offset="1" stop-color="#A8622C" stop-opacity="0.48"/>
+</linearGradient>
+<linearGradient id="paint2_linear_316_180" x1="15.5552" y1="4.43302" x2="18.367" y2="4.43302" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DB9865"/>
+<stop offset="1" stop-color="#A8622C" stop-opacity="0.48"/>
+</linearGradient>
+</defs>
+</svg>

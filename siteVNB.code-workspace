@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Programador/FrontPush2.0/ProjetoNubank - Referência"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "siteVNB"
+	}
+}

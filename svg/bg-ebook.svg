@@ -1,0 +1,9 @@
+<svg width="54" height="73" viewBox="0 0 54 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="bg-ebook" d="M54 0H6.07334C2.40551 0 3.98528e-06 3.91238 0 7.33571M54 7.33571H8.7631M0 7.33571C0.164074 9.49166 1.42741 14.6714 6.07334 14.6714H53.9642C53.984 14.6714 54 14.6874 54 14.7072L54 72.8323C54 72.8521 53.984 72.8681 53.9643 72.8681H8.3138C3.62813 72.8681 0 70.9119 0 64.5543V7.33571ZM26.8579 32.2771V52.8171M26.8579 52.8171L36.3943 43.2807M26.8579 52.8171L17.3214 43.2807" stroke="url(#paint0_linear_316_273)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_316_273" x1="-2.47493e-07" y1="36.0353" x2="54.3627" y2="36.0353" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DB9865"/>
+<stop offset="1" stop-color="#A8622C" stop-opacity="0.48"/>
+</linearGradient>
+</defs>
+</svg>

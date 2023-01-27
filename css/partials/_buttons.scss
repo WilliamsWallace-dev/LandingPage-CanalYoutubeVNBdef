@@ -68,7 +68,6 @@ a{
     }
     transition : .7s ease;
     &:hover{
-        border: none;
         &::before{
             animation: opacity 2s ease 1 both;
         }

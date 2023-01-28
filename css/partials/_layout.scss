@@ -241,34 +241,114 @@
 
 
 .item1 {
-   width: 50% ;
-   height: 30%;
+   width: 160px ;
+   height: 200px;
 
-  background: url(/img/instructor1-pb.png) center center;
+  background: url(/img/instructor1.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
   
+  animation : photo-gray1 21s ease infinite alternate-reverse;
 }
 
 .item2 {
-  width: 70% ;
-  height: 20%;
+  width: 300px ;
+  height: 160px;
 
-  background: url(/img/instructor2-pb.png) center center;
+  background: url(/img/instructor2.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  animation : photo-gray2 21s ease infinite alternate-reverse;
 }
 
 .item3 {
-  width: 50% ;
-  height: 40%;
+  width: 160px ;
+  height: 160px;
 
-  background: url(/img/instructor3-pb.png) center center;
+  background: url(/img/instructor4.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  animation : photo-gray3 21s ease infinite alternate-reverse;
+}
+
+.border-photo{
+  border-radius: 1rem;
+}
+
+.luminosity{
+  mix-blend-mode: luminosity;
+}
+
+// .blur-photo1{
+//     position: absolute;
+//     bottom: -80px;
+//     left: 0;
+//     width: 100%;
+//     height: 300px;
+//     z-index: 200;
+//     background: linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%);    transform: rotate(180deg);
+//     // background-color: white;
+//   }
+
+//   .blur-photo2{
+//     position: absolute;
+//     top: -100px;
+//     left: 0;
+//     width: 100%;
+//     height: 250px;
+//     z-index: 200;
+//     background: linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%);
+//     // background-color: white;
+//   }
+
+//Descritions Cards
+.description-card1{
+  animation: description-opacity1 21s ease infinite alternate-reverse;
+}
+.description-card2{
+  top:0;
+  left:0;
+
+  animation: description-opacity2 21s ease infinite alternate-reverse;
+}
+
+.description-card3{
+  top:0;
+  left:0;
+
+  animation: description-opacity3 21s ease infinite alternate-reverse;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 // .photos-container{
 //   width: 500px;
@@ -348,35 +428,7 @@
   
 // }
 
-.border-photo{
-  border-radius: 2rem;
-}
 
-.luminosity{
-  mix-blend-mode: luminosity;
-}
-
-.blur-photo1{
-    position: absolute;
-    bottom: -80px;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    z-index: 200;
-    background: linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%);    transform: rotate(180deg);
-    // background-color: white;
-  }
-
-  .blur-photo2{
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: 250px;
-    z-index: 200;
-    background: linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%), linear-gradient(180deg, #180F09 0%, rgba(24, 15, 9, 0) 100%);
-    // background-color: white;
-  }
 
 
 

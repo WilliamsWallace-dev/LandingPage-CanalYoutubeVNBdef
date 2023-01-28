@@ -53,6 +53,24 @@ $container-s: 540px;
   }
 }
 
+.container-instructor { 
+  max-width: $container-l;
+  margin: 0 auto;
+
+  padding: 32px 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+
+  @include responsive (s) {
+    padding: 8px 18px;
+
+    flex-direction: column;
+  }
+}
 
 
 

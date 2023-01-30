@@ -58,6 +58,22 @@
   }
 }
 
+.bg-star{
+  position: relative;
+  &::before{
+    content:'';
+    display: inline-block;
+
+    width: 12px;
+    height: 9.74px;
+
+    margin-right: .5rem;
+
+    background : url("../../svg/icon-star.svg") center center;
+    background-repeat: no-repeat;
+  }
+}
+
 //Path 
 .path-video{
   width: 712px ;

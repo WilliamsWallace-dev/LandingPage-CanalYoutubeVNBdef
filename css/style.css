@@ -915,6 +915,10 @@ a:hover {
   text-shadow: 0px 4px 12px rgba(219, 152, 101, 0.64);
 }
 
+.logovnb-hero {
+  max-width: 360px;
+}
+
 .bg-hero {
   width: 100%;
   position: absolute;
@@ -946,6 +950,15 @@ a:hover {
   border: 2px solid rgba(219, 152, 101, 0.64);
   background-color: #2B1D14;
   box-shadow: 0px -12px 51px rgba(219, 152, 101, 0.19), 0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096), 0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695), 0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048), 0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035);
+}
+
+.bg-sale {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .bonus .bonus-list > li {
@@ -1029,6 +1042,11 @@ a:hover {
   top: 0;
   left: 0;
   animation: description-opacity3 21s ease infinite alternate-reverse;
+}
+
+.sale-section {
+  width: 100%;
+  height: 100vh;
 }
 
 .swiper {
@@ -1144,6 +1162,19 @@ ul {
   height: 9.74px;
   margin-right: 0.5rem;
   background: url("../../svg/icon-check.svg") center center;
+  background-repeat: no-repeat;
+}
+
+.bg-star {
+  position: relative;
+}
+.bg-star::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 9.74px;
+  margin-right: 0.5rem;
+  background: url("../../svg/icon-star.svg") center center;
   background-repeat: no-repeat;
 }
 

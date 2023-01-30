@@ -11,11 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Readex+Pro:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- ===== -->
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+    <!-- Link AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ======= -->
     <!-- SVGInject.js -->
     <script src="svg-inject.min.js"></script>
@@ -32,9 +29,9 @@
    <header class="hero">
         <!-- <nav></nav> -->
         
-        <div class="logoGA"><img src="/img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
+        <div class="logoGA"  data-aos="fade-up"><img src="/img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
         <main class="container ">
-            <div>
+            <div class="mr-5" data-aos="fade-up"  data-aos-delay="100">
                 <h1>Aprenda a explorar a Bíblia de<br>Gênesis a Apocalipse<br>em 7 dias.</h1>
                 <p class="p1 primary-1 mt-2">Compreenda e absorva o conteúdo bíblico de forma rápida e eficaz,<br>
                 e seja capaz de falar da Palavra de Deus com propriedade, segurança e<br>
@@ -42,8 +39,8 @@
                 <a href="#" class="btn-1">Participe da Jornada</a>
                 <a href="#curriculum" class="btn-2">Grade do Curso</a>
             </div>
-            <div><img src="/svg/img-hero.svg" alt="Foto do Esdras Saviole, professor do Curso."></div>
-            <div class="list-icon flex-collumn ml-6">
+            <div class="logovnb-hero" data-aos="fade-up"  data-aos-delay="150"><img src="/img/hero2.png" alt="Foto do Esdras Saviole, professor do Curso."></div>
+            <div class="list-icon flex-collumn ml-5" data-aos="fade-up"  data-aos-delay="200">
                 <div class="icon-network p-1 mb-1"><img src="/svg/icon-intagram.svg" alt="Instagram" onload="SVGInject(this)"></div>
                 <div class="icon-network p-1 mb-1"><img src="/svg/icon-youtube.svg" alt="Instagram" onload="SVGInject(this)"></div>
                 <div class="icon-network p-1 mb-1"><img src="/svg/icon-whatsapp.svg" alt="Instagram" onload="SVGInject(this)"></div>
@@ -55,16 +52,16 @@
 <!-- //PATH// -->
    <section class="container relative">
     <div class="flex-center flex-column w-100">
-        <h3 class="white-3 mb-3 text-shadow-S1" >Conhece o chamado de Deus, mas não se sente preparado para cumprir?</h3>
-        <div class="path-card flex-center align-self-start m-3"><p class="primary-1 p1 text-center">“ Tem difuculdade em entender<br>a Bíblia? ”</p></div>
-        <div class="path-card flex-center align-self-end m-3"><p class="primary-1 p1 text-center">“ Não consegue ter constância nos<br> 
+        <h3 class="white-3 mb-3 text-shadow-S1" data-aos="fade-up" >Conhece o chamado de Deus, mas não se sente preparado para cumprir?</h3>
+        <div class="path-card flex-center align-self-start m-3" data-aos="fade-right"><p class="primary-1 p1 text-center">“ Tem difuculdade em entender<br>a Bíblia? ”</p></div>
+        <div class="path-card flex-center align-self-end m-3" data-aos="fade-left"><p class="primary-1 p1 text-center">“ Não consegue ter constância nos<br> 
             estudos Bíblicos? ”</p></div>
-        <div class="path-card flex-center  align-self-start m-3"><p class="primary-1 p1 text-center">“ Tem medo de ensinar algo errado<br>  
+        <div class="path-card flex-center  align-self-start m-3" data-aos="fade-right"><p class="primary-1 p1 text-center">“ Tem medo de ensinar algo errado<br>  
             sobre a Palavra de Deus? ”</p></div>
-        <div class="path-card flex-center  align-self-end m-3"><p class="primary-1 p1 text-center">“ Não sabe por onde começar sua<br>  
+        <div class="path-card flex-center  align-self-end m-3" data-aos="fade-left"><p class="primary-1 p1 text-center">“ Não sabe por onde começar sua<br>  
             leitura Bíblica? ”</p></div>
-        <h3 class="white-3 mt-7 text-shadow-S1" >Se sua resposta for “Sim”</h3>
-        <div class="path-video mt-5"></div>  
+        <h3 class="white-3 mt-7 text-shadow-S1" data-aos="fade-up" >Se sua resposta for “Sim”</h3>
+        <div class="path-video mt-5" data-aos="zoom-in-up"></div>  
     </div>
     <div class="bg-path"><img src="/svg/bg-path.svg" alt="" onload="SVGInject(this)"></div> 
 </section>
@@ -78,13 +75,13 @@
 <!-- ======================================= -->
 <!-- //CONTENT GRID// -->
 <section class=" bonus container flex-wrap">
-        <div class="text-center mb-2">
+        <div class="text-center mb-2" data-aos="fade-up">
             <h4 class="caption">Conteúdo</h4>
             <h2 class="title">Grade do Curso</h2>
             <a href="#" class="btn-2">Grade do Curso</a>
         </div>
         <ul class="list-cards flex-center flex-column w-100 ">
-            <li class="content-card  align-self-start flex-center relative">
+            <li data-aos="fade-up" data-aos-anchor-placement="top-center" class="my-3 content-card  align-self-start flex-center relative">
                 <div class="icon-circleBlur"><img src="/svg/icon-circleBlur.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="icon-content-card mr-3"><img src="/svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="description-card">
@@ -98,7 +95,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="content-card  align-self-end flex-center">
+            <li data-aos="fade-up" data-aos-anchor-placement="top-center"  class="my-3 content-card  align-self-end flex-center">
                 <div class="icon-circleBlur"><img src="/svg/icon-circleBlur.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="icon-content-card mr-3"><img src="/svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="description-card">
@@ -112,7 +109,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="content-card  align-self-start flex-center">
+            <li data-aos="fade-up" data-aos-anchor-placement="top-center"  class="my-3 content-card  align-self-start flex-center">
                 <div class="icon-circleBlur"><img src="/svg/icon-circleBlur.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="icon-content-card mr-3"><img src="/svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="description-card">
@@ -126,7 +123,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="content-card  align-self-end flex-center">
+            <li data-aos="fade-up" data-aos-anchor-placement="top-center"  class="my-3 content-card  align-self-end flex-center">
                 <div class="icon-circleBlur"><img src="/svg/icon-circleBlur.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="icon-content-card mr-3"><img src="/svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="description-card">
@@ -140,7 +137,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="content-card  align-self-start flex-center">
+            <li data-aos="fade-up" data-aos-anchor-placement="top-center"  class="my-3 content-card  align-self-start flex-center">
                 <div class="icon-circleBlur"><img src="/svg/icon-circleBlur.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="icon-content-card mr-3"><img src="/svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="description-card">
@@ -163,7 +160,7 @@
 <section class="bonus container flex-wrap ">
 
     <ul class="bonus-list flex-center w-100 flex-wrap">
-        <li class="bonus-list-item p-3 flex-center flex-column mb-3 ">
+        <li data-aos="fade-up"  data-aos-delay="150" data-aos-anchor-placement="top-center"   class="bonus-list-item p-3 flex-center flex-column mb-3 ">
             <div class="icon-bonus"><img src="/svg/bg-ebook.svg" alt="" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
@@ -179,12 +176,12 @@
             </ul>
         </li>
 
-            <div class="text-center m-4">
+            <div class="text-center m-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <h4 class="caption">5 BÔNUS EXCLUSIVOS</h4>
                 <h2 class="title">EXTRAS DO CURSO</h2>
             </div>
 
-        <li class="bonus-list-item p-3 flex-center flex-column mb-3 ">
+        <li data-aos="fade-up"  data-aos-delay="150" data-aos-anchor-placement="top-center"   class="bonus-list-item p-3 flex-center flex-column mb-3 ">
             <div class="icon-bonus"><img src="/svg/bg-ebook.svg" alt="" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
@@ -199,7 +196,7 @@
             </ul>
         </li>
 
-        <li class="bonus-list-item p-3 flex-center flex-column mr-3 ">
+        <li data-aos="fade-up"  data-aos-delay="200"  class="bonus-list-item p-3 flex-center flex-column mr-3 ">
             <div class="icon-bonus"><img src="/svg/bg-pdf.svg" alt="" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
@@ -213,7 +210,7 @@
             </ul>
         </li>
 
-        <li class="bonus-list-item p-3 flex-center flex-column mr-3 ">
+        <li data-aos="fade-up"  data-aos-delay="200"    class="bonus-list-item p-3 flex-center flex-column mr-3 ">
             <div class="icon-bonus"><img src="/svg/bg-pdf.svg" alt="" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
@@ -227,7 +224,7 @@
             </ul>
         </li>
 
-        <li class="bonus-list-item p-3 flex-center flex-column ">
+        <li data-aos="fade-up"  data-aos-delay="200"    class="bonus-list-item p-3 flex-center flex-column ">
             <div class="icon-bonus"><img src="/svg/bg-slide.svg" alt="" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
@@ -249,15 +246,15 @@
 <div class="skills flex-center">
     <section class="container flex-wrap">
 
-        <div class="text-center">
+        <div class="text-center" data-aos="fade-up"  data-aos-delay="0">
             <h4 class="caption">OBJETIVO DO CURSO</h4>
             <h2 class="title">HABILIDADES DESENVOLVIDAS</h2>
         </div>
     
-        <div class="skills-container flex-center flex-column w-100 mt-6">
-            <div class="icon-skill mb-5"><img src="/svg/bg-hab1.svg" alt="" onload="SVGInject(this)"></div> 
+        <div class="skills-container flex-center flex-column w-100 mt-6" data-aos="fade-up"  data-aos-delay="100">
+            <div class="icon-skill skillOne mb-5"><img src="/svg/bg-hab1.svg" alt="" onload="SVGInject(this)"></div> 
             <div class="flex-center">
-                <div class="icon-skill  mr-6"><img src="/svg/bg-hab4.svg" alt="" onload="SVGInject(this)"></div> 
+                <div class="icon-skill skillTwo  mr-6"><img src="/svg/bg-hab4.svg" alt="" onload="SVGInject(this)"></div> 
                 <div class="text-container">
                     <h3 class="white-3 text-center mb-1">Iniciar as mais eficientes
                         leituras da Bíblia.</h3>
@@ -265,9 +262,9 @@
                         leitura por qualquer um dos 66 livros da Bíblia sem 
                         se confundir.</p>
                 </div>
-                <div class="icon-skill  ml-6"><img src="/svg/bg-hab2.svg" alt="" onload="SVGInject(this)"></div> 
+                <div class="icon-skill skillThree  ml-6"><img src="/svg/bg-hab2.svg" alt="" onload="SVGInject(this)"></div> 
             </div>
-            <div class="icon-skill  mt-6"><img src="/svg/bg-hab3.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class="icon-skill skillFour  mt-6"><img src="/svg/bg-hab3.svg" alt="" onload="SVGInject(this)"></div> 
         </div>
     
         
@@ -281,7 +278,7 @@
 
 <section class="container flex-wrap relative">
 
-    <div class="flex-center flex-column text-center w-100 mb-4">
+    <div class="flex-center flex-column text-center w-100 mb-4" data-aos="fade-up"  data-aos-delay="0">
         <h4 class="caption">JORNADA GÊNESIS  A APOCALIPSE</h4>
         <h2 class="title">Aqueles que percorreram<br>
             a Jornada</h2>
@@ -311,26 +308,26 @@
 <!-- ======================================= -->
 <!-- //Depositions -->
 
-<section class="container flex-wrap">
-    <div class="depositions-card p-3 flex-center flex-column mr-3 mb-3">
+<section class="container flex-wrap" >
+    <div data-aos="fade-up"  data-aos-delay="50" class="depositions-card p-3 flex-center flex-column mr-3 mb-3" >
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
             amet, consectetur.”
         </p>
-        <div class="flex-center mt-4">
+        <div class="flex-center mt-4" >
             <div class=""><img src="/svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
             <h4 class="white-3">Maria Alves</h4>
         </div>
     </div>
 
-    <div class="text-center">
+    <div data-aos="fade-up"  data-aos-delay="0" class="text-center">
         <h4 class="caption">AVALIAÇÃO DOS NOSSOS ALUNOS</h4>
         <h2 class="title">Depoimentos</h2>
         <a href="#" class="btn-2">Grade do Curso</a>
     </div>
 
-     <div class="depositions-card p-3 flex-center flex-column ml-3 mb-3">
+     <div data-aos="fade-up"  data-aos-delay="100" class="depositions-card p-3 flex-center flex-column ml-3 mb-3">
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
@@ -342,7 +339,7 @@
         </div>
     </div>
 
-    <div class="depositions-card p-3 flex-center flex-column flex-item-2 mr-3">
+    <div data-aos="fade-up"  data-aos-delay="150" class="depositions-card p-3 flex-center flex-column flex-item-2 mr-3">
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
@@ -354,7 +351,7 @@
         </div>
     </div>
 
-    <div class="depositions-card p-3 flex-center flex-column">
+    <div data-aos="fade-up"  data-aos-delay="200" class="depositions-card p-3 flex-center flex-column">
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
@@ -379,7 +376,7 @@
 
 <section class="container-instructor">
 
-    <div class="descrition relative">
+    <div data-aos="fade-up"  data-aos-delay="0" class="descrition relative">
         <div class="description-card1 card-enable instructor-container text-center flex-center flex-column mr-4 ">
             <h4 class="caption">Descrição</h4>
             <h2 class="title">Participação no 
@@ -410,7 +407,7 @@
     </div>
     
 
-    <div class="relative">
+    <div data-aos="fade-up"  data-aos-delay="50" class="relative">
         <!-- <div class="blur-photo1"></div> -->
         <div class="photos-container relative w-100 flex-center flex-column">
 
@@ -432,7 +429,7 @@
     </div>
 
 
-    <div class="instructor-container text-center flex-center flex-column ml-4">
+    <div data-aos="fade-up"  data-aos-delay="100" class="instructor-container text-center flex-center flex-column ml-4">
         <h4 class="caption">INSTRUTOR</h4>
         <h2 class="title">Esdras Saviole</h2>
         <p class="text-gradient p2 text-center mt-3">Resumo : Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -451,21 +448,66 @@
                     </div>
                 </li>
             </ul>
-            <div class="icon-imgCourse ml-4"><img src="/svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class="icon-imgCourse ml-4"><img src="/img/" alt="" onload="SVGInject(this)"></div> 
         </div>    
     </div>
 </section>
+<!-- ======================================= -->
 
-<section class="container">
+//sales section
+<section class="relative">
 
-    <div class="text-center">
-        <h4 class="caption">AVALIAÇÃO DOS NOSSOS ALUNOS</h4>
-        <h2 class="title">Depoimentos</h2>
-        <a href="#" class="btn-2">Grade do Curso</a>
+    <div class="bg-sale"><img src="/img/bg-sale.png" alt="Imagem de um Mapa como fundo da página" onload="SVGInject(this)"></div>
+
+    <div class="sale-section container flex-column">
+        <div data-aos="fade-up"  data-aos-delay="0" class="logoGA"><img src="/img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
+        <div data-aos="fade-up"  data-aos-delay="50" class="text-center mt-2">
+            <h4 class="caption">VENHA PARTICIPAR DESTA JORNADA</h4>
+            <h2 class="title">Inscrição aberta</h2>
+            <!-- <a href="#" class="btn-2">Grade do Curso</a> -->
+        </div>
+        <ul data-aos="fade-up"  data-aos-delay="100" class="sale-list mt-3">
+            <li class="sale-list-item bg-star white-3 p2">Acesso a todas atualizações
+                durante o período de acesso</li>
+            <li class="sale-list-item bg-star white-3 p2 my-1">Acesso ao conteúdo Bônus</li>
+            <li class="sale-list-item bg-star primary-1 p1 text-shadow-S1">Garantia de 15 dias INCONDICIONAL</li>
+        </ul>
+        
+        <div data-aos="fade-up"  data-aos-delay="150" class="flex-center mt-3"> 
+            <div class="annual-plan flex-center flex-column">
+                <h2 class="white-3 mb-3">Plano Anual</h2>
+                <h5 class="white-3">De R$ 297,00</h5>
+                <h3 class="white-1 m-2">12x de R$ 9,68</h3>
+                <h5 class="white-3">ou R$ 97,00 à vista</h5>
+                <a href="#" class="btn-2"  style = "max-width: 260px">Participe da Jornada</a>
+            </div>
+            <div class="lifetime-plan flex-center flex-column">
+                <h2 class="white-3 mb-3">Plano Vitalício</h2>
+                <h5 class="white-3">De R$ 597,00</h5>
+                <h3 class="white-1 m-2">12x de R$ 14,68</h3>
+                <h5 class="white-3">ou R$ 147,00 à vista</h5>
+                <a href="#" class="btn-1">Participe da Jornada</a>
+            </div>
+        </div>
     </div>
+   
 
 </section>
 
+<p class="p1 mt-4 pb-2 text-center ">VAI NA BÍBLIA © 2022 Todos Os Direitos Reservados.</p>
+<!-- ======================================= -->
 
+
+<!-- Link AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        easing : "ease-out-quart",
+        duration : 1000,
+        once:true
+    });
+  </script>
+  <script src="./js/app.js"></script>
 </body>
 </html>

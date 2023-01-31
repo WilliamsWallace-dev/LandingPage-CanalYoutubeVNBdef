@@ -1,5 +1,11 @@
 .logoGA {
-  max-width: 688px ;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 32px 0 16px 0;
+}
+.logoGA-sales{
+  width: 65%;
   display: block;
   margin: 0 auto;
   padding: 32px 0 16px 0;
@@ -115,6 +121,42 @@
 //skills
 .icon-skill {
   width: 72px;
+  height: 72px;
+ 
+}
+
+.skillOne{
+  top: 0;
+  left: 0;
+  
+  animation: skillOne-opacity 40s ease infinite reverse;
+}
+.skillTwo{
+  top: 0;
+  left: 0;
+
+  animation: skillTwo-opacity 40s ease infinite reverse;
+}
+.skillThree{
+  top: 0;
+  left: 0;
+
+  animation: skillThree-opacity 40s ease infinite reverse;
+}
+.skillFour{
+  top: 0;
+  left: 0;
+
+  animation: skillFour-opacity 40s ease infinite reverse;
+}
+
+.skill-active{
+  box-shadow: 0px -12px 51px rgba(219, 152, 101, 0.19),
+   0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096),
+    0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695),
+     0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048),
+      0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035);
+  background: linear-gradient(90deg, #DB9865 0%, rgba(168, 98, 44, 0.48) 100.67%);
 }
 
 //incons bonus section

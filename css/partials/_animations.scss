@@ -95,3 +95,64 @@
     73%,100%{
         opacity: 100;   }
 }
+
+//skills
+
+
+
+@keyframes skillOne-opacity {
+    0%,20%{
+        opacity: 100;
+    }
+    25%,45%{
+        opacity: 0;
+    }
+    50%,70%{
+        opacity: 0;    
+    }
+    75%,100%{
+        opacity: 0;
+    }
+}
+@keyframes skillTwo-opacity {
+    0%,20%{
+        opacity: 0;
+    }
+    25%,45%{
+        opacity: 100;
+    }
+    50%,70%{
+        opacity: 0;    
+    }
+    75%,100%{
+        opacity: 0;
+    }
+}
+@keyframes skillThree-opacity {
+    0%,20%{
+        opacity: 0;
+    }
+    25%,45%{
+        opacity: 0;
+    }
+    50%,70%{
+        opacity: 100;   
+    }
+    75%,100%{
+        opacity: 0;
+    }
+}
+@keyframes skillFour-opacity {
+    0%,20%{
+        opacity: 0;
+    }
+    25%,45%{
+        opacity: 0;
+    }
+    50%,70%{
+        opacity: 0;    
+    }
+    75%,100%{
+        opacity: 100;
+    }
+}

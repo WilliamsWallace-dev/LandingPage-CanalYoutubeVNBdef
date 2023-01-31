@@ -26,6 +26,12 @@
 .absolute{
   position:absolute;
 }
+.topzero{
+  top: 0;
+}
+.leftzero{
+  left: 0;
+}
 
 .flex-wrap {
   flex-wrap: wrap;
@@ -160,6 +166,16 @@
     height: auto;
   }
 }
+.hero-container{
+  width: 100%;
+  height : 60vh;
+
+  @include responsive(s){
+    height: auto;
+  }
+}
+
+
 
 .bg-path{
   position: absolute;

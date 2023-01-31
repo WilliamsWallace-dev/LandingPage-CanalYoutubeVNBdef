@@ -30,7 +30,7 @@
         <!-- <nav></nav> -->
         
         <div class="logoGA"  data-aos="fade-up"><img src="/img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
-        <main class="container ">
+        <main class="flex-center hero-container ">
             <div class="mr-5" data-aos="fade-up"  data-aos-delay="100">
                 <h1>Aprenda a explorar a Bíblia de<br>Gênesis a Apocalipse<br>em 7 dias.</h1>
                 <p class="p1 primary-1 mt-2">Compreenda e absorva o conteúdo bíblico de forma rápida e eficaz,<br>
@@ -38,13 +38,13 @@
                 base bíblica.</p>
                 <a href="#" class="btn-1">Participe da Jornada</a>
                 <a href="#curriculum" class="btn-2">Grade do Curso</a>
+                <div class="list-icon flex-center mt-1" data-aos="fade-up"  data-aos-delay="200">
+                    <div class="icon-network p-1 mr-1"><img src="/svg/icon-intagram.svg" alt="Instagram" onload="SVGInject(this)"></div>
+                    <div class="icon-network p-1 mr-1"><img src="/svg/icon-youtube.svg" alt="Instagram" onload="SVGInject(this)"></div>
+                    <div class="icon-network p-1 "><img src="/svg/icon-whatsapp.svg" alt="Instagram" onload="SVGInject(this)"></div>
+                </div>
             </div>
             <div class="logovnb-hero" data-aos="fade-up"  data-aos-delay="150"><img src="/img/hero2.png" alt="Foto do Esdras Saviole, professor do Curso."></div>
-            <div class="list-icon flex-collumn ml-5" data-aos="fade-up"  data-aos-delay="200">
-                <div class="icon-network p-1 mb-1"><img src="/svg/icon-intagram.svg" alt="Instagram" onload="SVGInject(this)"></div>
-                <div class="icon-network p-1 mb-1"><img src="/svg/icon-youtube.svg" alt="Instagram" onload="SVGInject(this)"></div>
-                <div class="icon-network p-1 mb-1"><img src="/svg/icon-whatsapp.svg" alt="Instagram" onload="SVGInject(this)"></div>
-            </div>
         </main>
    </header>
 
@@ -252,19 +252,31 @@
         </div>
     
         <div class="skills-container flex-center flex-column w-100 mt-6" data-aos="fade-up"  data-aos-delay="100">
-            <div class="icon-skill skillOne mb-5"><img src="/svg/bg-hab1.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class="icon-skill relative  mb-5"><img src="/svg/bg-hab1.svg" alt="" onload="SVGInject(this)"> <img class="absolute skillOne" src="/svg/bg-hab1-active.svg" alt="" onload="SVGInject(this)"></div> 
             <div class="flex-center">
-                <div class="icon-skill skillTwo  mr-6"><img src="/svg/bg-hab4.svg" alt="" onload="SVGInject(this)"></div> 
-                <div class="text-container">
-                    <h3 class="white-3 text-center mb-1">Iniciar as mais eficientes
-                        leituras da Bíblia.</h3>
-                    <p class="p1 primary-1 text-center">Você será capaz de iniciar sua 
-                        leitura por qualquer um dos 66 livros da Bíblia sem 
-                        se confundir.</p>
+                <div class="icon-skill relative mr-6"><img src="/svg/bg-hab4.svg" alt="" onload="SVGInject(this)">  <img class="absolute skillFour" src="/svg/bg-hab4-active.svg" alt="" onload="SVGInject(this)"></div> 
+                <div class="relative">
+                    <div class="text-container skillOne">
+                        <h3 class="white-3 text-center mb-1">Interpretar o Antigo Testamento.</h3>
+                        <p class="p1 primary-1 text-center">Entendera que o Novo Testamento é a chave para a compreenção do Antigo Testamento.</p>
+                    </div>
+                    <div class="text-container absolute skillTwo">
+                        <h3 class="white-3 text-center mb-1">Extrair ensinamentos profundos da Bíblia.</h3>
+                        <p class="p1 primary-1 text-center">Conhecerá os contextos bíblicos, com segurança, para aprender e ensinar corretamente.</p>
+                    </div>
+                    <div class="text-container absolute skillThree">
+                        <h3 class="white-3 text-center mb-1">Realizar eficiente leituras da Bíblia.</h3>
+                        <p class="p1 primary-1 text-center">Iniciar sua leitura por qualquer um dos 66 livros da Bíblia sem se confundir.</p>
+                    </div>
+                    <div class="text-container absolute skillFour">
+                        <h3 class="white-3 text-center mb-1">Estudar as profecias de Apocalipse.</h3>
+                        <p class="p1 primary-1 text-center">interpretar as profecias e os eventos que marcam os tempos do fim.</p>
+                    </div>
+                    
                 </div>
-                <div class="icon-skill skillThree  ml-6"><img src="/svg/bg-hab2.svg" alt="" onload="SVGInject(this)"></div> 
+                <div class="icon-skill relative   ml-6"><img src="/svg/bg-hab2.svg" alt="" onload="SVGInject(this)"> <img class="absolute skillTwo" src="/svg/bg-hab2-active.svg" alt="" onload="SVGInject(this)"></div> 
             </div>
-            <div class="icon-skill skillFour  mt-6"><img src="/svg/bg-hab3.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class="icon-skill relative mt-6"><img src="/svg/bg-hab3.svg" alt="" onload="SVGInject(this)"> <img class="absolute skillThree" src="/svg/bg-hab3-active.svg" alt="" onload="SVGInject(this)"></div> 
         </div>
     
         
@@ -460,7 +472,7 @@
     <div class="bg-sale"><img src="/img/bg-sale.png" alt="Imagem de um Mapa como fundo da página" onload="SVGInject(this)"></div>
 
     <div class="sale-section container flex-column">
-        <div data-aos="fade-up"  data-aos-delay="0" class="logoGA"><img src="/img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
+        <div data-aos="fade-up"  data-aos-delay="0" class="logoGA-sales"><img src="/img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
         <div data-aos="fade-up"  data-aos-delay="50" class="text-center mt-2">
             <h4 class="caption">VENHA PARTICIPAR DESTA JORNADA</h4>
             <h2 class="title">Inscrição aberta</h2>

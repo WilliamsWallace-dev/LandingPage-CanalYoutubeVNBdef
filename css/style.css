@@ -810,6 +810,14 @@ a:hover {
   position: absolute;
 }
 
+.topzero {
+  top: 0;
+}
+
+.leftzero {
+  left: 0;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -934,6 +942,16 @@ a:hover {
 }
 @media screen and (max-width: 960px) {
   .hero {
+    height: auto;
+  }
+}
+
+.hero-container {
+  width: 100%;
+  height: 60vh;
+}
+@media screen and (max-width: 960px) {
+  .hero-container {
     height: auto;
   }
 }
@@ -1118,7 +1136,14 @@ ul {
 }
 
 .logoGA {
-  max-width: 688px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 32px 0 16px 0;
+}
+
+.logoGA-sales {
+  width: 65%;
   display: block;
   margin: 0 auto;
   padding: 32px 0 16px 0;
@@ -1205,6 +1230,36 @@ ul {
 
 .icon-skill {
   width: 72px;
+  height: 72px;
+}
+
+.skillOne {
+  top: 0;
+  left: 0;
+  animation: skillOne-opacity 40s ease infinite reverse;
+}
+
+.skillTwo {
+  top: 0;
+  left: 0;
+  animation: skillTwo-opacity 40s ease infinite reverse;
+}
+
+.skillThree {
+  top: 0;
+  left: 0;
+  animation: skillThree-opacity 40s ease infinite reverse;
+}
+
+.skillFour {
+  top: 0;
+  left: 0;
+  animation: skillFour-opacity 40s ease infinite reverse;
+}
+
+.skill-active {
+  box-shadow: 0px -12px 51px rgba(219, 152, 101, 0.19), 0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096), 0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695), 0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048), 0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035);
+  background: linear-gradient(90deg, #DB9865 0%, rgba(168, 98, 44, 0.48) 100.67%);
 }
 
 .icon-bonus {
@@ -1465,6 +1520,118 @@ ul {
     opacity: 0;
   }
   73%, 100% {
+    opacity: 100;
+  }
+}
+@-webkit-keyframes skillOne-opacity {
+  0%, 20% {
+    opacity: 100;
+  }
+  25%, 45% {
+    opacity: 0;
+  }
+  50%, 70% {
+    opacity: 0;
+  }
+  75%, 100% {
+    opacity: 0;
+  }
+}
+@keyframes skillOne-opacity {
+  0%, 20% {
+    opacity: 100;
+  }
+  25%, 45% {
+    opacity: 0;
+  }
+  50%, 70% {
+    opacity: 0;
+  }
+  75%, 100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes skillTwo-opacity {
+  0%, 20% {
+    opacity: 0;
+  }
+  25%, 45% {
+    opacity: 100;
+  }
+  50%, 70% {
+    opacity: 0;
+  }
+  75%, 100% {
+    opacity: 0;
+  }
+}
+@keyframes skillTwo-opacity {
+  0%, 20% {
+    opacity: 0;
+  }
+  25%, 45% {
+    opacity: 100;
+  }
+  50%, 70% {
+    opacity: 0;
+  }
+  75%, 100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes skillThree-opacity {
+  0%, 20% {
+    opacity: 0;
+  }
+  25%, 45% {
+    opacity: 0;
+  }
+  50%, 70% {
+    opacity: 100;
+  }
+  75%, 100% {
+    opacity: 0;
+  }
+}
+@keyframes skillThree-opacity {
+  0%, 20% {
+    opacity: 0;
+  }
+  25%, 45% {
+    opacity: 0;
+  }
+  50%, 70% {
+    opacity: 100;
+  }
+  75%, 100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes skillFour-opacity {
+  0%, 20% {
+    opacity: 0;
+  }
+  25%, 45% {
+    opacity: 0;
+  }
+  50%, 70% {
+    opacity: 0;
+  }
+  75%, 100% {
+    opacity: 100;
+  }
+}
+@keyframes skillFour-opacity {
+  0%, 20% {
+    opacity: 0;
+  }
+  25%, 45% {
+    opacity: 0;
+  }
+  50%, 70% {
+    opacity: 0;
+  }
+  75%, 100% {
     opacity: 100;
   }
 }/*# sourceMappingURL=style.css.map */

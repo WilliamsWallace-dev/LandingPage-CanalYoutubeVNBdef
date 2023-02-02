@@ -8,7 +8,7 @@
     line-height: 100%;
     font-weight: 500;
   } @else if $size == h1 and $device == mobile {
-    font-size: 36px;
+    font-size: 20px;
     line-height: 100%;
     font-weight: 500;
   } @else if $size == h2 and $device == desktop {
@@ -16,7 +16,7 @@
     line-height: 100%;
     font-weight: 400;
   } @else if $size == h2 and $device == mobile {
-    font-size: 36px;
+    font-size: 18px;
     line-height: 100%;
     font-weight: 400;
   } @else if $size == h3 and $device == desktop {
@@ -24,7 +24,7 @@
     line-height: 120%;
     font-weight: 400;
   } @else if $size == h3 and $device == mobile {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 120%;
     font-weight: 400;
   } @else if $size == h4 and $device == desktop {
@@ -32,14 +32,14 @@
     line-height: 130%;
     font-weight: 400;
   } @else if $size == h4 and $device == mobile {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 130%;
   } @else if $size == h5 and $device == desktop {
     font-size: 14px;
     line-height: 140%;
     font-weight: 400;
   } @else if $size == h5 and $device == mobile {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 150%;
     font-weight: 400;
   }
@@ -76,23 +76,27 @@
 }
 
 h1 {
-  color: $white-1;
+  color: $white-3;
   @include typeface-1(h1, desktop);
   @include responsive(s) {
+    @include typeface-1(h2, desktop);
+  }
+  @include responsive(xs) {
     @include typeface-1(h1, mobile);
   }
+  
 }
 
 h2 {
   @include typeface-1(h2, desktop);
-  @include responsive(s) {
+  @include responsive(xs) {
     @include typeface-1(h2, mobile);
   }
 }
 
 h3 {
   @include typeface-1(h3, desktop);
-  @include responsive(s) {
+  @include responsive(xs) {
     @include typeface-1(h3, mobile);
   }
 }
@@ -100,7 +104,7 @@ h3 {
 h4 {
   color: $white-3;
   @include typeface-1(h4, desktop);
-  @include responsive(s) {
+  @include responsive(xs) {
     @include typeface-1(h4, mobile);
   }
 }
@@ -108,7 +112,7 @@ h4 {
 h5 {
   text-transform: uppercase;
   @include typeface-1(h5, desktop);
-  @include responsive(s) {
+  @include responsive(xs) {
     @include typeface-1(h5, mobile);
   }
 }
@@ -119,19 +123,19 @@ p {
 
 .p1{
   @include typeface-2(p1,desktop);
-  @include responsive(s) {
+  @include responsive(xs) {
     @include typeface-2(p1,mobile);
   }
 }
 .p2{
   @include typeface-2(p2,desktop);
-  @include responsive (s) { 
+  @include responsive (xs) { 
     @include typeface-2(p2,mobile);
   }
 }
 .p3{
   @include typeface-2(p3,desktop);
-  @include responsive(s){
+  @include responsive(xs){
     @include typeface-2(p3,mobile);
   }
 

@@ -3,6 +3,10 @@ a{
     margin: 24px 12px;
     border: none;
 
+    @include responsive(s){
+        margin: 12px 8px;
+    }
+
     text-decoration: none;
 
     cursor: pointer;
@@ -22,6 +26,14 @@ a{
 
     color: $white-1;
     @include typeface-1(h4,desktop);
+
+    @include responsive(s){
+        @include typeface-1(h4,mobile);
+        max-width: 240px;
+        height: 52px;
+        padding: 16px 24px ;
+        margin-top: 24px;
+    }
     
     transition : all .5s ease;
     &:hover{
@@ -36,7 +48,7 @@ a{
     position: relative;
 
     max-width: 232px;
-    height: 56;
+    height: 56px;
     padding: 16px 48px;
 
     border: 1px solid #DB9865;
@@ -47,6 +59,13 @@ a{
     color: $white-1;
     @include typeface-1(h5,desktop); 
     text-transform: none;
+
+    @include responsive(s){
+        @include typeface-1(h4,mobile);
+        max-width: 240px;
+        height: 52px;
+        padding: 16px 24px ;
+    }
 
     &::before{   
         content:'';

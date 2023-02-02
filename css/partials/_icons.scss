@@ -3,16 +3,53 @@
   display: block;
   margin: 0 auto;
   padding: 32px 0 16px 0;
+
+  @include responsive(s){
+    width: 70%;
+    padding: 24px 0 0px 0;
+  }
+
+  @include responsive(xs){
+    width: 90%;
+    padding: 24px 0 24px 0;
+  }
 }
 .logoGA-sales{
   width: 65%;
   display: block;
   margin: 0 auto;
   padding: 32px 0 16px 0;
+
+  @include responsive(xs){
+    width: 90%;
+  }
 }
 
+.list-icon{
+  position: absolute;
+  left: 25%;
+  @include responsive(xs){
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+  }
+}
 .icon-network{
   max-width: 40px;
+  min-width: 36px;
+  padding: .5rem;
+  margin-right: 0.5rem;
+  @include responsive(xs){
+    max-width: 40px;
+    min-width: 36px;
+    padding: .625rem;
+    margin-right: 0.25rem;
+    // margin: 1rem .25rem;
+  }
 
   cursor: pointer;
 
@@ -46,6 +83,10 @@
 
 .icon-content-card{
   width: 224px;
+
+  @include responsive(xs){
+    width: 136px;
+  }
 }
 
 .bg-check{
@@ -84,6 +125,10 @@
 .path-video{
   width: 712px ;
   height: 400px;
+  @include responsive(xs){
+    width: 95% ;
+    height: 240px;
+  }
 
   border: 1px solid rgba(194, 124, 70, 0.64);
   border-radius: 24px;
@@ -105,9 +150,14 @@
     width: 240px;
     height: 240px;
 
-    background: url("../../svg/icon-play.svg") center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include responsive(xs){
+      width: 50% ;
+      height: 130px;
+    }
+
+    // background: url("../../svg/icon-play.svg") center center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
 
 
   }
@@ -116,12 +166,27 @@
 
 .icon-circleBlur{
   position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(90.21deg, #DB9865 0.18%, rgba(168, 98, 44, 0.48) 146.52%);
+  opacity: 0.8;
+  filter: blur(60px);
+
+  @include responsive(xs){
+    width: 32%;
+  }
 }
+
 
 //skills
 .icon-skill {
-  width: 72px;
-  height: 72px;
+  width: 64px;
+  height: 64px;
+  @include responsive(xs){
+    width: 48px;
+    height: 48px;
+  }
  
 }
 
@@ -134,11 +199,12 @@
 .skillTwo{
   top: 0;
   left: 0;
+  
 
   animation: skillTwo-opacity 40s ease infinite reverse;
 }
 .skillThree{
-  top: 0;
+  top: 2px;
   left: 0;
 
   animation: skillThree-opacity 40s ease infinite reverse;
@@ -163,6 +229,9 @@
 
 .icon-bonus{
   max-width: 48px ;
+  @include responsive(xs){
+    max-width: 32px;
+  }
 }
 
 //Peaple
@@ -181,6 +250,9 @@
 .icon-person2{
   left : 10%;
   top : 10%;
+  @include responsive(xs){
+    top : 20%;
+  }
 }
 .icon-person3{
   left :15%;
@@ -188,10 +260,16 @@
 }
 .icon-person4{
   left :25%;
+  @include responsive(xs){
+    top : 40%;
+  }
 }
 .icon-person5{
   bottom : 3%;
   left: 40%;
+  @include responsive(xs){
+    bottom : 80%;
+  }
 }
 .icon-person6{
   top: 0%;
@@ -278,5 +356,13 @@
     &::after {
       transform: scale(1.05);
     }
+  }
+}
+
+//Compass
+.compass{
+  // width: 320px;
+  @include responsive(xs){
+    width: 320px;
   }
 }

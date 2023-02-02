@@ -141,14 +141,33 @@
 }
 
 // BACKGROUNDS SVGS AND IMG
+//Sections
 
-.logovnb-hero{
-  max-width: 360px;
+//HERO
+
+.esdras-hero{
+  max-width: 400px;
+  @include responsive(xs){
+    max-width: 300px;
+    margin-top: 2rem;
+    // padding: 2rem;
+  }
 }
 
 .bg-hero{
   width: 100%;
+  @include responsive(s){
+    width: 150%;
+    top: 0px;
+    left: -50%;
 
+  }
+  @include responsive(xs){
+    width: 250%;
+    top: 0px;
+    left: -100%;
+  }
+  
   position: absolute;
   top: 0px;
   left: 0px;
@@ -162,20 +181,52 @@
   width: 100%;
   height : 100vh;
 
-  @include responsive(s){
-    height: auto;
+  @include responsive(xs){
+    height: 100%;
   }
 }
 .hero-container{
   width: 100%;
   height : 60vh;
 
-  @include responsive(s){
+  @include responsive(xs){
     height: auto;
+    padding: 0px 16px;
+    flex-direction: column;
+  }
+  .btn-2{
+    @include responsive(s){
+      display: none;
+  }
+  }
+  &>div{
+    @include responsive(xs){
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  p,h1{
+    @include responsive(xs){
+      text-align: center;
+    }
+  }
+  .hero-text{
+    max-width: 45%;
+    @include responsive(xs){
+      max-width: 100%;
+    }
   }
 }
 
+//PATH
 
+.path{
+  h3{
+    text-align: center;
+  }
+}
 
 .bg-path{
   position: absolute;
@@ -188,15 +239,22 @@
   height: 96px;
 
   border-radius: 56px;
-  border: 2px solid rgba(219, 152, 101, 0.64);
+  border: 2px solid rgba(219, 152, 101, 0.24);
 
   background-color: $black-1 ;
 
-  box-shadow: 0px -12px 51px rgba(219, 152, 101, 0.19),
-   0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096),
-    0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695),
-     0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048),
-      0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035);
+  box-shadow: 0px 27px 68px rgba(219, 152, 101, 0.06), 0px 9.85544px 24.8211px rgba(219, 152, 101, 0.0413989), 0px 4.78464px 12.0502px rgba(219, 152, 101, 0.0333774), 0px 2.34552px 5.90723px rgba(219, 152, 101, 0.0266226), 0px 0.927421px 2.33573px rgba(219, 152, 101, 0.0186011);
+      
+    @include responsive(xs){
+      width: 184px ;
+      height: 40px;
+
+      border:none;
+    
+      background-color: transparent;
+    
+      box-shadow: none
+    }
 }
 
 .bg-sale{
@@ -206,28 +264,48 @@
   top: 0px;
   left: 0px;
 
+  @include responsive(xs){
+    width: 350%;
+    top: 7%;
+    left: 0px;
+  }
   overflow: hidden;
 
   z-index:-1;
 }
 
-//Sections
+//content grid
+
+.contentGrid{
+  .description-card{
+    @include responsive(xs){
+      text-align: center;
+    }
+  }
+}
+
 
 //Bonus section 
 .bonus{
   .bonus-list{
     &>li{
-      box-shadow: 0px -12px 51px rgba(219, 152, 101, 0.19),
-       0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096),
-        0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695),
-         0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048),
-          0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035);
+      box-shadow: 0px 27px 68px rgba(219, 152, 101, 0.06),
+       0px 9.85544px 24.8211px rgba(219, 152, 101, 0.0413989),
+        0px 4.78464px 12.0502px rgba(219, 152, 101, 0.0333774),
+         0px 2.34552px 5.90723px rgba(219, 152, 101, 0.0266226),
+          0px 0.927421px 2.33573px rgba(219, 152, 101, 0.0186011);
       border-radius: 20px;
+      border: 2px solid rgba(219, 152, 101, 0.24);
     }
   }
   .bonus-list-item {
     width: 320px;
     height: 360px;
+
+    @include responsive(xs){
+      width: 280px;
+      height: 320px;
+    }
   }
   .box-text{
     max-width: 288px;
@@ -238,26 +316,46 @@
 //Skills
 .skills{
   height: 90vh;
+  @include responsive(xs){
+    height: 80vh;
+  }
   .skills-container{
+    @include responsive(xs){
+      margin-top: 2rem;
+    }
+    
     .text-container{
       max-width: 320px;
       text-align: center;
+      @include responsive(xs){
+        margin-top: 1rem;
+      }
     }
 
   }
 }
-
+//people
+.people{
+  @include responsive(xs){
+    height: 90%;
+  }
+}
 //Deposition
 
 .depositions-card{
   width: 376px;
   height: 216px;
-  box-shadow: 0px -12px 51px rgba(219, 152, 101, 0.19),
-   0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096),
-    0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695),
-     0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048),
-      0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035);
+  box-shadow: 0px 27px 68px rgba(219, 152, 101, 0.06),
+       0px 9.85544px 24.8211px rgba(219, 152, 101, 0.0413989),
+        0px 4.78464px 12.0502px rgba(219, 152, 101, 0.0333774),
+         0px 2.34552px 5.90723px rgba(219, 152, 101, 0.0266226),
+          0px 0.927421px 2.33573px rgba(219, 152, 101, 0.0186011);
   border-radius: 24px;
+  border: 2px solid rgba(219, 152, 101, 0.24);
+  @include responsive (xs){
+    width: 320px;
+     height: 216px;
+  }
 }
 
 
@@ -265,43 +363,59 @@
 //Photos
 
 .photos-container{
-  width: 360px;
-  height: 90vh;
+  margin: 0 2rem;
+  @include responsive (xs){
+    width: 90%;
+    height: 20vh;
+    margin: 2rem 0;
+  }
 }
 
 
 
 .item1 {
-   width: 160px ;
-   height: 200px;
+   width: 180px ;
+   height: 220px;
 
   background: url(/img/instructor1.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
   
   animation : photo-gray1 21s ease infinite alternate-reverse;
+
+  @include responsive (xs){
+    animation : photo-opacity1 21s ease infinite alternate-reverse;
+  }
 }
 
 .item2 {
-  width: 300px ;
-  height: 160px;
+  width: 320px ;
+  height: 180px;
 
   background: url(/img/instructor2.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
 
   animation : photo-gray2 21s ease infinite alternate-reverse;
+
+  @include responsive (xs){
+    animation : photo-opacity2 21s ease infinite alternate-reverse;
+  }
 }
 
 .item3 {
-  width: 160px ;
-  height: 160px;
+  width: 180px ;
+  height: 180px;
 
   background: url(/img/instructor4.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
 
   animation : photo-gray3 21s ease infinite alternate-reverse;
+
+  @include responsive (xs){
+    animation : photo-opacity3 21s ease infinite alternate-reverse;
+  }
 }
 
 .border-photo{
@@ -359,7 +473,7 @@
 
 .sale-section{
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 
 

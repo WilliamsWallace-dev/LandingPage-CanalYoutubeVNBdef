@@ -46,9 +46,8 @@ $container-s: 540px;
   flex-direction: row;
   overflow: hidden;
 
-  @include responsive (s) {
-    padding: 32px 18px;
-
+  @include responsive (xs) {
+    padding: 32px 16px;
     flex-direction: column;
   }
 }
@@ -65,13 +64,23 @@ $container-s: 540px;
   flex-direction: row;
   overflow: hidden;
 
-  @include responsive (s) {
-    padding: 8px 18px;
-
+  @include responsive (xs) {
+    padding: 32px 16px;
     flex-direction: column;
   }
 }
 
+.mobile{
+  display: none;
+  @include responsive(xs){
+    display: inline-block;
+  }
+}
+.desktop{
+  @include responsive(xs){
+    display: none;
+  }
+}
 
 
 

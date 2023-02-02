@@ -742,24 +742,13 @@ p {
   padding-bottom: 128px;
 }
 
-a {
+.btn-1 {
   display: inline-block;
   margin: 24px 12px;
   border: none;
   text-decoration: none;
   cursor: pointer;
   transition: 0.5s ease;
-}
-@media screen and (max-width: 960px) {
-  a {
-    margin: 12px 8px;
-  }
-}
-a:hover {
-  transform: scale(0.98);
-}
-
-.btn-1 {
   max-width: 260px;
   height: 56px;
   padding: 16px 48px;
@@ -771,6 +760,14 @@ a:hover {
   line-height: 130%;
   font-weight: 400;
   transition: all 0.5s ease;
+}
+@media screen and (max-width: 960px) {
+  .btn-1 {
+    margin: 12px 8px;
+  }
+}
+.btn-1:hover {
+  transform: scale(0.98);
 }
 @media screen and (max-width: 960px) {
   .btn-1 {
@@ -788,6 +785,12 @@ a:hover {
 }
 
 .btn-2 {
+  display: inline-block;
+  margin: 24px 12px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s ease;
   position: relative;
   max-width: 232px;
   height: 56px;
@@ -802,6 +805,14 @@ a:hover {
   font-weight: 400;
   text-transform: none;
   transition: 0.7s ease;
+}
+@media screen and (max-width: 960px) {
+  .btn-2 {
+    margin: 12px 8px;
+  }
+}
+.btn-2:hover {
+  transform: scale(0.98);
 }
 @media screen and (max-width: 960px) {
   .btn-2 {

@@ -1,11 +1,9 @@
 
-// let textSkills = document.querySelector(".skills-container .text-container");
-// console.log(textSkills)
-// let skillOne = document.querySelector(".skillOne").addEventListener(click, skillActive);
-// let skillTwo = document.querySelector(".skillTwo");
-// let skillThree =  document.querySelector(".skillThree");
-// let skillFour =  document.querySelector(".skillFour");
+gsap.registerPlugin(ScrollTrigger);
 
-// let skillActive = ()=>{
-//     skillOne.
-// }
+let bsCompass = document.querySelector("svg .bsCompass");
+console.log(bsCompass);
+gsap.to("svg .bsCompass",{
+    scrollTrigger : ".compass"
+
+})

@@ -276,7 +276,7 @@
     transform-origin: center center;
     transform-box: fill-box;
 
-    animation : compass 5s ease both ;
+    // animation : compass 5s ease both ;
 }
 
 @keyframes compass {
@@ -297,7 +297,7 @@
     transform-origin: center center;
     transform-box: fill-box;
 
-    animation : arrow 5s ease .5s both;
+    // animation : arrow 5s ease .5s both;
 }
 
 @keyframes arrow {

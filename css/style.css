@@ -2104,8 +2104,6 @@ ul {
 .bsCompass {
   transform-origin: center center;
   transform-box: fill-box;
-  -webkit-animation: compass 5s ease both;
-          animation: compass 5s ease both;
 }
 
 @-webkit-keyframes compass {
@@ -2134,8 +2132,6 @@ ul {
 .bsArrow {
   transform-origin: center center;
   transform-box: fill-box;
-  -webkit-animation: arrow 5s ease 0.5s both;
-          animation: arrow 5s ease 0.5s both;
 }
 
 @-webkit-keyframes arrow {

@@ -1188,7 +1188,7 @@ p {
 .item1 {
   width: 180px;
   height: 220px;
-  background: url(../../img/instructor1.png) center center;
+  background: url(../img/instructor1.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
   animation: photo-gray1 21s ease infinite alternate-reverse;

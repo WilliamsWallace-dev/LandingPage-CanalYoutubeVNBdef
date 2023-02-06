@@ -255,25 +255,27 @@
   }
 }
 .icon-person3{
-  left :15%;
-  top : 70%;
+  left :30%;
+  top : 15%;
 }
 .icon-person4{
-  left :25%;
+
+  top : 60%;
+  left :65%;
   @include responsive(xs){
-    top : 40%;
+    top : 60%;
   }
 }
 .icon-person5{
-  bottom : 3%;
+  top : 30%;
   left: 40%;
   @include responsive(xs){
-    bottom : 80%;
+    top : 30%;
   }
 }
 .icon-person6{
-  top: 0%;
-  left: 65%
+  top: 55%;
+  left: 20%
 }
 .icon-person7{
   right : 5%;
@@ -284,17 +286,18 @@
 }
 .icon-person9{
   right :15%;
-  top : 70%;
+  top : 27%;
 }
 .icon-person10{
-  right :25%;
+  left :40%;
+  top: 70%;
 }
 .icon-person11{
-  bottom : 8%;
+  top : 22%;
   left: 60%;
 }
 .icon-person12{
-  top : 3%;
+  top : 36%;
   right: 68%;
 }
 

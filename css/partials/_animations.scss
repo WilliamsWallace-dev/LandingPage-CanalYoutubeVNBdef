@@ -271,12 +271,34 @@
 }
 
 //Compass
+.compassMov{
+    transform-origin: center center;
+    transform-box: fill-box;
+    
+    animation: compassMov 6s ease
+}
+@keyframes compassMov {
+    0%{
+        transform: translate3d(0,0,0) scale(1);
+    }
+    15%,85%{
+        transform: translate3d(0,-5px,0) scale(1.03);
+        // filter: drop-shadow(0px 9px 17px rgba(219, 152, 101, 0.14)) drop-shadow(0px 3.28515px 6.20528px rgba(219, 152, 101, 0.0965974)) drop-shadow(0px 1.59488px 3.01255px rgba(219, 152, 101, 0.0778807)) drop-shadow(0px 0.781839px 1.47681px rgba(219, 152, 101, 0.0621193)) drop-shadow(0px 0.30914px 0.583932px rgba(219, 152, 101, 0.0434026));
+    }
+        
+    100%{
+        transform: translate3d(0,0,0) scale(1);
+        filter:none;
+    }
+    
+}
+
 .bsCompass{
 
     transform-origin: center center;
     transform-box: fill-box;
 
-    // animation : compass 5s ease both ;
+    animation : compass 5s ease .5s both ;
 }
 
 @keyframes compass {
@@ -297,7 +319,7 @@
     transform-origin: center center;
     transform-box: fill-box;
 
-    // animation : arrow 5s ease .5s both;
+    animation : arrow 5s ease 1s both;
 }
 
 @keyframes arrow {

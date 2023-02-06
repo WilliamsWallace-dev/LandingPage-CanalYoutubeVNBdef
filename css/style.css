@@ -1155,10 +1155,9 @@ p {
   }
 }
 
-@media screen and (max-width: 540px) {
-  .people {
-    height: 90%;
-  }
+.people {
+  width: 100%;
+  height: 90vh;
 }
 
 .depositions-card {
@@ -1559,32 +1558,33 @@ ul {
 }
 
 .icon-person3 {
-  left: 15%;
-  top: 70%;
+  left: 30%;
+  top: 15%;
 }
 
 .icon-person4 {
-  left: 25%;
+  top: 60%;
+  left: 65%;
 }
 @media screen and (max-width: 540px) {
   .icon-person4 {
-    top: 40%;
+    top: 60%;
   }
 }
 
 .icon-person5 {
-  bottom: 3%;
+  top: 30%;
   left: 40%;
 }
 @media screen and (max-width: 540px) {
   .icon-person5 {
-    bottom: 80%;
+    top: 30%;
   }
 }
 
 .icon-person6 {
-  top: 0%;
-  left: 65%;
+  top: 55%;
+  left: 20%;
 }
 
 .icon-person7 {
@@ -1598,20 +1598,21 @@ ul {
 
 .icon-person9 {
   right: 15%;
-  top: 70%;
+  top: 27%;
 }
 
 .icon-person10 {
-  right: 25%;
+  left: 40%;
+  top: 70%;
 }
 
 .icon-person11 {
-  bottom: 8%;
+  top: 22%;
   left: 60%;
 }
 
 .icon-person12 {
-  top: 3%;
+  top: 36%;
   right: 68%;
 }
 
@@ -2101,9 +2102,43 @@ ul {
     transform: translate3d(250px, -50px, 0);
   }
 }
+.compassMov {
+  transform-origin: center center;
+  transform-box: fill-box;
+  -webkit-animation: compassMov 6s ease;
+          animation: compassMov 6s ease;
+}
+
+@-webkit-keyframes compassMov {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  15%, 85% {
+    transform: translate3d(0, -5px, 0) scale(1.03);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: none;
+  }
+}
+
+@keyframes compassMov {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  15%, 85% {
+    transform: translate3d(0, -5px, 0) scale(1.03);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: none;
+  }
+}
 .bsCompass {
   transform-origin: center center;
   transform-box: fill-box;
+  -webkit-animation: compass 5s ease 0.5s both;
+          animation: compass 5s ease 0.5s both;
 }
 
 @-webkit-keyframes compass {
@@ -2132,6 +2167,8 @@ ul {
 .bsArrow {
   transform-origin: center center;
   transform-box: fill-box;
+  -webkit-animation: arrow 5s ease 1s both;
+          animation: arrow 5s ease 1s both;
 }
 
 @-webkit-keyframes arrow {

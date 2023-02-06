@@ -35,7 +35,7 @@ window.addEventListener("scroll",()=>{
 gsap.registerPlugin(ScrollTrigger);
  
 gsap.from(".icon-person-mov1",20,{
-    y:810,
+    y:800,
     opacity : 0,
     scrollTrigger :{
         trigger:".people",

@@ -6,7 +6,7 @@ const getElementBottom = (el) =>
 
 
 const isOnScreen = (el) => 
-    getWindowBottom() > getElementBottom(el);
+    getWindowBottom() > (getElementBottom(el));
 
 
 window.addEventListener("scroll",()=>{
@@ -17,17 +17,19 @@ window.addEventListener("scroll",()=>{
     let compass1 = document.querySelector(".compass1");
     let compass2 = document.querySelector(".compass2");
 
-    // console.log(getWindowBottom())
+    // console.log(getWindowBottom()-500)
     // console.log(getElementBottom(bsCompass))
     if(isOnScreen(compass1)){
  
         bsCompass1.classList.add("bsCompass");
         bsArrow1.classList.add("bsArrow");
+        compass1.classList.add("compassMov")
     }
     if(isOnScreen(compass2)){
  
         bsCompass2.classList.add("bsCompass");
         bsArrow2.classList.add("bsArrow");
+        compass2.classList.add("compassMov")
     }
 })
     
@@ -39,9 +41,9 @@ gsap.from(".icon-person-mov1",20,{
     opacity : 0,
     scrollTrigger :{
         trigger:".people",
-        markers : true,
+        // markers : true,
         start:'top bottom',
-        end:'top top',
+        end:'top 20%',
         scrub : 10,
     }
 })
@@ -50,9 +52,9 @@ gsap.from(".icon-person-mov3",10,{
     opacity : 0,
     scrollTrigger :{
         trigger:".people",
-        markers : true,
+        // markers : true,
         start:'top bottom',
-        end:'top top',
+        end:'top 20%',
         scrub : 10,
     }
 })
@@ -61,12 +63,16 @@ gsap.from(".icon-person-mov2",5,{
     opacity : 0,
     scrollTrigger :{
         trigger:".people",
-        markers : true,
+        // markers : true,
         start:'top bottom',
-        end:'top top',
+        end:'top 20%',
         scrub : 20,
     }
 })
+
+// ScrollTrigger.addEventListener("scrollStart",()=>{
+//     ScrollTrigger.refresh();
+// })
 
 // gsap.from(".icon-person-mov1-mobile",5,{
 //     y:20,

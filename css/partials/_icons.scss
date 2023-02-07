@@ -184,8 +184,7 @@
   width: 64px;
   height: 64px;
   @include responsive(xs){
-    width: 48px;
-    height: 48px;
+    width: 54px;
   }
  
 }
@@ -193,27 +192,24 @@
 .skillOne{
   top: 0;
   left: 0;
-  
-  animation: skillOne-opacity 40s ease infinite reverse;
 }
 .skillTwo{
   top: 0;
   left: 0;
-  
-
-  animation: skillTwo-opacity 40s ease infinite reverse;
 }
 .skillThree{
-  top: 2px;
+  top: 0;
   left: 0;
-
-  animation: skillThree-opacity 40s ease infinite reverse;
+  @include responsive(xs){
+    transform: translateY(-7px);
+  }
 }
 .skillFour{
   top: 0;
   left: 0;
-
-  animation: skillFour-opacity 40s ease infinite reverse;
+  @include responsive(xs){
+    transform: translateY(-3px);
+  }
 }
 
 .skill-active{

@@ -47,57 +47,72 @@ window.onload = ()=>{
         trialWarn: false,
       });
     gsap.to(".bsCompass1",{
-        // onStart : function(){
-        //     document.querySelector(".bsCompass1").classList.add("bsCompassMov");
-        // },
+        onStart : function(){
+            document.querySelector(".bsCompass1").classList.add("bsCompassMov");
+        },
         scrollTrigger : {
             trigger:".bsCompass1",
-            toggleClass : 'bsCompassMov',
+            // toggleClass : 'bsCompassMov',
             // toggleActions : 'play none none none',
             start:'top bottom',
             end:'top 20%',
         }
     })
     gsap.to(".bsArrow1",{
+        onStart : function(){
+            document.querySelector(".bsArrow1").classList.add("bsArrowMov");
+        },
         scrollTrigger : {
             trigger:".bsArrow1",
-            toggleClass : 'bsArrowMov',
+            // toggleClass : 'bsArrowMov',
             // toggleActions : 'play none none none',
             start:'top bottom',
             end:'top 20%',
         }
     })
     gsap.to(".compass1",{
+        onStart : function(){
+            document.querySelector(".compass1").classList.add("compassMov");
+        },
         scrollTrigger : {
             trigger:".compass1",
-            toggleClass : 'compassMov',
+            // toggleClass : 'compassMov',
             // toggleActions : 'play none none none',
             start:'top bottom',
             end:'top 20%',
         }
     })
     gsap.to(".bsCompass2",{
+        onStart : function(){
+            document.querySelector(".bsCompass2").classList.add("bsCompassMov");
+        },
         scrollTrigger : {
             trigger:".bsCompass2",
-            toggleClass : 'bsCompassMov',
+            // toggleClass : 'bsCompassMov',
             // toggleActions : 'play none none none',
             start:'top bottom',
             end:'top 20%',
         }
     })
     gsap.to(".bsArrow2",{
+        onStart : function(){
+            document.querySelector(".bsArrow2").classList.add("bsArrowMov");
+        },
         scrollTrigger : {
             trigger:".bsArrow2",
-            toggleClass : 'bsArrowMov',
+            // toggleClass : 'bsArrowMov',
             // toggleActions : 'play none none none',
             start:'top bottom',
             end:'top 20%',
         }
     })
     gsap.to(".compass2",{
+        onStart : function(){
+            document.querySelector(".compass2").classList.add("compassMov");
+        },
         scrollTrigger : {
             trigger:".compass2",
-            toggleClass : 'compassMov',
+            // toggleClass : 'compassMov',
             // toggleActions : 'play none none none',
             start:'top bottom',
             end:'top 20%',

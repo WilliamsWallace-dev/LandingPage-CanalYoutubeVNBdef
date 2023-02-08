@@ -41,7 +41,10 @@ window.onload = ()=>{
     console.log(bsArrow2)
     console.log(compass1)
     console.log(compass2)
-    
+    gsap.config({
+        nullTargetWarn: false,
+        trialWarn: false,
+      });
     gsap.to(bsCompass1,{
         scrollTrigger : {
             trigger:bsCompass1,

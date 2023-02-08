@@ -28,13 +28,19 @@ gsap.registerPlugin(ScrollTrigger);
 // })
     
 window.onload = ()=>{
+
     let bsCompass1 = document.querySelector(".compass1 .bsCompass");
     let bsArrow1 = document.querySelector(".compass1 .bsArrow");
     let bsCompass2 = document.querySelector(".compass2 .bsCompass");
     let bsArrow2 = document.querySelector(".compass2 .bsArrow");
     let compass1 = document.querySelector(".compass1");
     let compass2 = document.querySelector(".compass2");
-
+    while( bsCompass1 == null || bsArrow1 == null || bsCompass2 == null || bsArrow2 == null){
+        bsCompass1 = document.querySelector(".compass1 .bsCompass");
+        bsArrow1 = document.querySelector(".compass1 .bsArrow");
+        bsCompass2 = document.querySelector(".compass2 .bsCompass");
+        bsArrow2 = document.querySelector(".compass2 .bsArrow");
+    }
     console.log(bsCompass1)
     console.log(bsArrow1)
     console.log(bsCompass2)

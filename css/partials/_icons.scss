@@ -1,3 +1,10 @@
+.icon-VNB{
+  @include responsive(xs){
+    max-width: 40px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
 .logoGA {
   width: 50%;
   display: block;
@@ -6,7 +13,7 @@
 
   @include responsive(s){
     width: 70%;
-    padding: 24px 0 0px 0;
+    padding: 24px 0 24px 0;
   }
 
   @include responsive(xs){
@@ -263,11 +270,8 @@
   }
 }
 .icon-person5{
-  top : 30%;
+  top : 5%;
   left: 40%;
-  @include responsive(xs){
-    top : 30%;
-  }
 }
 .icon-person6{
   top: 55%;

@@ -50,7 +50,9 @@ window.onload = ()=>{
         scrollTrigger : {
             trigger:".compass1 .bsCompass",
             toggleClass : 'bsCompassMov',
-            toggleActions : 'play none none none'
+            toggleActions : 'play none none none',
+            start:'top bottom',
+            end:'top 2%',
         }
     })
     gsap.to(".compass1 .bsArrow",{
@@ -58,7 +60,9 @@ window.onload = ()=>{
         scrollTrigger : {
             trigger:".compass1 .bsArrow",
             toggleClass : 'bsArrowMov',
-            toggleActions : 'play none none none'
+            toggleActions : 'play none none none',
+            start:'top bottom',
+            end:'top 2%',
         }
     })
     gsap.to(".compass1",{
@@ -66,7 +70,9 @@ window.onload = ()=>{
         scrollTrigger : {
             trigger:".compass1",
             toggleClass : 'compassMov',
-            toggleActions : 'play none none none'
+            toggleActions : 'play none none none',
+            start:'top bottom',
+            end:'top 2%',
         }
     })
     gsap.to(".compass2 .bsCompass",{
@@ -74,7 +80,9 @@ window.onload = ()=>{
         scrollTrigger : {
             trigger:".compass2 .bsCompass",
             toggleClass : 'bsCompassMov',
-            toggleActions : 'play none none none'
+            toggleActions : 'play none none none',
+            start:'top bottom',
+            end:'top 2%',
         }
     })
     gsap.to(".compass2 .bsArrow",{
@@ -82,7 +90,9 @@ window.onload = ()=>{
         scrollTrigger : {
             trigger:".compass2 .bsArrow",
             toggleClass : 'bsArrowMov',
-            toggleActions : 'play none none none'
+            toggleActions : 'play none none none',
+            start:'top bottom',
+            end:'top 2%',
         }
     })
     gsap.to(".compass2",{
@@ -90,7 +100,9 @@ window.onload = ()=>{
         scrollTrigger : {
             trigger:".compass2",
             toggleClass : 'compassMov',
-            toggleActions : 'play none none none'
+            toggleActions : 'play none none none',
+            start:'top bottom',
+            end:'top 2%',
         }
     })
 }

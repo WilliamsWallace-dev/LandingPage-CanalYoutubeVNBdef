@@ -47,6 +47,9 @@ window.onload = ()=>{
         trialWarn: false,
       });
     gsap.to(".bsCompass1",{
+        // onStart : function(){
+        //     document.querySelector(".bsCompass1").classList.add("bsCompassMov");
+        // },
         scrollTrigger : {
             trigger:".bsCompass1",
             toggleClass : 'bsCompassMov',
@@ -56,7 +59,6 @@ window.onload = ()=>{
         }
     })
     gsap.to(".bsArrow1",{
-        repeat : 0,
         scrollTrigger : {
             trigger:".bsArrow1",
             toggleClass : 'bsArrowMov',
@@ -66,7 +68,6 @@ window.onload = ()=>{
         }
     })
     gsap.to(".compass1",{
-        repeat : 0,
         scrollTrigger : {
             trigger:".compass1",
             toggleClass : 'compassMov',
@@ -76,7 +77,6 @@ window.onload = ()=>{
         }
     })
     gsap.to(".bsCompass2",{
-        repeat : 0,
         scrollTrigger : {
             trigger:".bsCompass2",
             toggleClass : 'bsCompassMov',
@@ -86,7 +86,6 @@ window.onload = ()=>{
         }
     })
     gsap.to(".bsArrow2",{
-        repeat : 0,
         scrollTrigger : {
             trigger:".bsArrow2",
             toggleClass : 'bsArrowMov',
@@ -96,7 +95,6 @@ window.onload = ()=>{
         }
     })
     gsap.to(".compass2",{
-        repeat : 0,
         scrollTrigger : {
             trigger:".compass2",
             toggleClass : 'compassMov',

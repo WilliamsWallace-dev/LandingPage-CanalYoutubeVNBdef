@@ -29,71 +29,66 @@ gsap.registerPlugin(ScrollTrigger);
     
 window.onload = ()=>{
 
-    let bsCompass1 = document.querySelector(".compass1 .bsCompass");
-    let bsArrow1 = document.querySelector(".compass1 .bsArrow");
-    let bsCompass2 = document.querySelector(".compass2 .bsCompass");
-    let bsArrow2 = document.querySelector(".compass2 .bsArrow");
-    let compass1 = document.querySelector(".compass1");
-    let compass2 = document.querySelector(".compass2");
-    while( bsCompass1 == null || bsArrow1 == null || bsCompass2 == null || bsArrow2 == null){
-        bsCompass1 = document.querySelector(".compass1 .bsCompass");
-        bsArrow1 = document.querySelector(".compass1 .bsArrow");
-        bsCompass2 = document.querySelector(".compass2 .bsCompass");
-        bsArrow2 = document.querySelector(".compass2 .bsArrow");
-    }
-    console.log(bsCompass1)
-    console.log(bsArrow1)
-    console.log(bsCompass2)
-    console.log(bsArrow2)
-    console.log(compass1)
-    console.log(compass2)
+    // let bsCompass1 = document.querySelector(".compass1 .bsCompass");
+    // let bsArrow1 = document.querySelector(".compass1 .bsArrow");
+    // let bsCompass2 = document.querySelector(".compass2 .bsCompass");
+    // let bsArrow2 = document.querySelector(".compass2 .bsArrow");
+    // let compass1 = document.querySelector(".compass1");
+    // let compass2 = document.querySelector(".compass2");
+
+    // console.log(bsCompass1)
+    // console.log(bsArrow1)
+    // console.log(bsCompass2)
+    // console.log(bsArrow2)
+    // console.log(compass1)
+    // console.log(compass2)
     gsap.config({
         nullTargetWarn: false,
         trialWarn: false,
       });
-    gsap.to(bsCompass1,{
+    gsap.to(".compass1 .bsCompass",{
         scrollTrigger : {
-            trigger:bsCompass1,
+            trigger:".compass1 .bsCompass",
             toggleClass : 'bsCompassMov',
             toggleActions : 'play none none none'
         }
     })
-    gsap.to(bsArrow1,{
+    gsap.to(".compass1 .bsArrow",{
         repeat : 0,
         scrollTrigger : {
-            trigger:bsArrow1,
+            trigger:".compass1 .bsArrow",
             toggleClass : 'bsArrowMov',
             toggleActions : 'play none none none'
         }
     })
-    gsap.to(compass1,{
+    gsap.to(".compass1",{
         repeat : 0,
         scrollTrigger : {
-            trigger:compass1,
+            trigger:".compass1",
             toggleClass : 'compassMov',
             toggleActions : 'play none none none'
         }
     })
-    gsap.to(bsCompass2,{
+    gsap.to(".compass2 .bsCompass",{
         repeat : 0,
         scrollTrigger : {
-            trigger:bsCompass2,
+            trigger:".compass2 .bsCompass",
             toggleClass : 'bsCompassMov',
             toggleActions : 'play none none none'
         }
     })
-    gsap.to(bsArrow2,{
+    gsap.to(".compass2 .bsArrow",{
         repeat : 0,
         scrollTrigger : {
-            trigger:bsArrow2,
+            trigger:".compass2 .bsArrow",
             toggleClass : 'bsArrowMov',
             toggleActions : 'play none none none'
         }
     })
-    gsap.to(compass2,{
+    gsap.to(".compass2",{
         repeat : 0,
         scrollTrigger : {
-            trigger:compass2,
+            trigger:".compass2",
             toggleClass : 'compassMov',
             toggleActions : 'play none none none'
         }

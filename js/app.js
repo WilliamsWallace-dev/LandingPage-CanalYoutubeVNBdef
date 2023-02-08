@@ -46,19 +46,19 @@ window.onload = ()=>{
         nullTargetWarn: false,
         trialWarn: false,
       });
-    gsap.to(".compass1 .bsCompass",{
+    gsap.to(".bsCompass1",{
         scrollTrigger : {
-            trigger:".compass1 .bsCompass",
+            trigger:".bsCompass1",
             toggleClass : 'bsCompassMov',
             // toggleActions : 'play none none none',
             start:'top bottom',
             end:'top 20%',
         }
     })
-    gsap.to(".compass1 .bsArrow",{
+    gsap.to(".bsArrow1",{
         repeat : 0,
         scrollTrigger : {
-            trigger:".compass1 .bsArrow",
+            trigger:".bsArrow1",
             toggleClass : 'bsArrowMov',
             // toggleActions : 'play none none none',
             start:'top bottom',
@@ -75,20 +75,20 @@ window.onload = ()=>{
             end:'top 20%',
         }
     })
-    gsap.to(".compass2 .bsCompass",{
+    gsap.to(".bsCompass2",{
         repeat : 0,
         scrollTrigger : {
-            trigger:".compass2 .bsCompass",
+            trigger:".bsCompass2",
             toggleClass : 'bsCompassMov',
             // toggleActions : 'play none none none',
             start:'top bottom',
             end:'top 20%',
         }
     })
-    gsap.to(".compass2 .bsArrow",{
+    gsap.to(".bsArrow2",{
         repeat : 0,
         scrollTrigger : {
-            trigger:".compass2 .bsArrow",
+            trigger:".bsArrow2",
             toggleClass : 'bsArrowMov',
             // toggleActions : 'play none none none',
             start:'top bottom',

@@ -151,7 +151,7 @@ gsap.from(".icon-person-mov1",{
     opacity : 0,
     scrollTrigger :{
         trigger:".people",
-        markers : true,
+        // markers : true,
         start:'center 125%',
         end:'center 50%',
         scrub:12
@@ -180,45 +180,6 @@ gsap.from(".icon-person-mov3",10,{
     }
 })
 
-// ScrollTrigger.addEventListener("scrollStart",()=>{
-//     ScrollTrigger.refresh();
-// })
 
-// gsap.from(".icon-person-mov1-mobile",5,{
-//     y:300,
-//     opacity : 0,
-//     scrollTrigger :{
-//         trigger:".people",
-//         // markers : true,
-//         start:'center 100%',
-//         end:'center 80%',
-//         scrub:3
-        
-        
-//     }
-// })
-// gsap.from(".icon-person-mov3-mobile",10,{
-//     y:500,
-//     opacity : 0,
-//     scrollTrigger :{
-//         trigger:".people",
-//         // markers : true,
-//         start:'center 100%',
-//         end:'center 80%',
-//         scrub:4
-        
-//     }
-// })
-// gsap.from(".icon-person-mov2-mobile",5,{
-//     y:500,
-//     opacity : 0,
-//     scrollTrigger :{
-//         trigger:".people",
-//         // markers : true,
-//         start:'center 100%',
-//         end:'center 80%',
-//         scrub:2
-//     }
-// })
 
 

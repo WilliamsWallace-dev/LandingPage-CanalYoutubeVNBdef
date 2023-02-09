@@ -54,6 +54,7 @@ window.onload = ()=>{
             trigger:".bsCompass1",
             // toggleClass : 'bsCompassMov',
             // toggleActions : 'play none none none',
+            // markers:true,
             start:'top bottom',
             end:'top 20%',
         }
@@ -145,37 +146,37 @@ window.onload = ()=>{
 
 
  
-gsap.from(".icon-person-mov1",10,{
+gsap.from(".icon-person-mov1",{
     y:500,
     opacity : 0,
     scrollTrigger :{
         trigger:".people",
-        // markers : true,
-        start:'center bottom',
-        end:'center 40%',
-        scrub:7
+        markers : true,
+        start:'center 125%',
+        end:'center 50%',
+        scrub:12
     }
 })
 gsap.from(".icon-person-mov2",10,{
+    y:200,
+    opacity : 0,
+    scrollTrigger :{
+        trigger:".people",
+        // markers : true,
+        start:'center 125%',
+        end:'center 50%',
+        scrub:20
+    }
+})
+gsap.from(".icon-person-mov3",10,{
     y:300,
     opacity : 0,
     scrollTrigger :{
         trigger:".people",
         // markers : true,
-        start:'center bottom',
-        end:'center 40%',
-        scrub:12
-    }
-})
-gsap.from(".icon-person-mov3",10,{
-    y:500,
-    opacity : 0,
-    scrollTrigger :{
-        trigger:".people",
-        // markers : true,
-        start:'center bottom',
-        end:'center 40%',
-        scrub:9
+        start:'center 125%',
+        end:'center 50%',
+        scrub:8
     }
 })
 
@@ -183,41 +184,41 @@ gsap.from(".icon-person-mov3",10,{
 //     ScrollTrigger.refresh();
 // })
 
-gsap.from(".icon-person-mov1-mobile",5,{
-    y:300,
-    opacity : 0,
-    scrollTrigger :{
-        trigger:".people",
-        // markers : true,
-        start:'center 100%',
-        end:'center 80%',
-        scrub:3
+// gsap.from(".icon-person-mov1-mobile",5,{
+//     y:300,
+//     opacity : 0,
+//     scrollTrigger :{
+//         trigger:".people",
+//         // markers : true,
+//         start:'center 100%',
+//         end:'center 80%',
+//         scrub:3
         
         
-    }
-})
-gsap.from(".icon-person-mov3-mobile",10,{
-    y:500,
-    opacity : 0,
-    scrollTrigger :{
-        trigger:".people",
-        // markers : true,
-        start:'center 100%',
-        end:'center 80%',
-        scrub:4
+//     }
+// })
+// gsap.from(".icon-person-mov3-mobile",10,{
+//     y:500,
+//     opacity : 0,
+//     scrollTrigger :{
+//         trigger:".people",
+//         // markers : true,
+//         start:'center 100%',
+//         end:'center 80%',
+//         scrub:4
         
-    }
-})
-gsap.from(".icon-person-mov2-mobile",5,{
-    y:500,
-    opacity : 0,
-    scrollTrigger :{
-        trigger:".people",
-        // markers : true,
-        start:'center 100%',
-        end:'center 80%',
-        scrub:2
-    }
-})
+//     }
+// })
+// gsap.from(".icon-person-mov2-mobile",5,{
+//     y:500,
+//     opacity : 0,
+//     scrollTrigger :{
+//         trigger:".people",
+//         // markers : true,
+//         start:'center 100%',
+//         end:'center 80%',
+//         scrub:2
+//     }
+// })
 
 

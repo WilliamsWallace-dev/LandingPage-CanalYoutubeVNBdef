@@ -27,52 +27,61 @@
 </head>
 <body>
 <!-- //HERO// -->
-<div class="bg-hero"><img src="img/bg-hero.png" alt="Imagem de um Mapa como fundo da página" onload="SVGInject(this)"></div>
-<!-- <div href="#hero" target="_blank" class="icon-VNB "><img src="./svg/LogoVaiNaBília.svg" alt="Logo Vai na Biblia" onload="SVGInject(this)"></div> -->
+<div class="bg-hero"><img class="svg-bg-hero" src="img/bg-hero.png" alt="Imagem de um Mapa como fundo da página" loading="lazy" onload="SVGInject(this)"></div>
+<!-- <div href="#hero" target="_blank" class="icon-VNB "><img src="./svg/LogoVaiNaBília.svg" alt="Logo Vai na Biblia" loading="lazy" onload="SVGInject(this)"></div> -->
 
-   <header id="hero" class="hero">
+<header id="hero" class="hero">
         <!-- <nav></nav> -->
-        <div class="desktop">
-            <div class="logoGA"  data-aos="fade-up"><img src="img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
+        <div class="desktop" data-aos="fade-up" data-aos-delay="100" >
+            <div class="logoGA"  ><img src="img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
         </div>
         <div class="mobile">
-            <div class="logoGA"  data-aos="fade-up"><img src="img/LogoJornada-mobile.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>        </div>
+            <div class="logoGA" data-aos="fade-up" data-aos-delay="100"  ><img src="img/LogoJornada-mobile.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>        </div>
         </div>
         
         <main class="flex-center hero-container relative ">
-            <div class="hero-text mr-1" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom"  data-aos-delay="100">
-                <h1>Aprenda a explorar a Bíblia de Gênesis a Apocalipse em 7 dias.</h1>
-                <p class="p1 primary-1 mt-2">Compreenda e absorva o conteúdo bíblico de forma rápida e eficaz,<br>
+            <div class="hero-text mr-1"  >
+                <h1 data-aos="fade-up" data-aos-delay="200" >Aprenda a explorar a Bíblia de Gênesis a Apocalipse em 7 dias.</h1>
+                <p data-aos="fade-up" data-aos-delay="300" class="p1 primary-1 mt-2">Compreenda e absorva o conteúdo bíblico de forma rápida e eficaz,<br>
                 e seja capaz de falar da Palavra de Deus com propriedade, segurança e<br>
                 base bíblica.</p>
-                <a href="#" class="btn-1">Participe da Jornada</a>
-                <a href="#contentGrid" class="btn-2">Grade do Curso</a>
-                <div class="list-icon flex-center mt-1" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom"  data-aos-delay="200">
-                    <a href="https://www.instagram.com/vainabiblia/" target="_blank" class="icon-network "><img src="svg/icon-intagram.svg" alt="Instagram" onload="SVGInject(this)"></a>
-                    <a href="https://www.youtube.com/@vainabiblia" target="_blank" class="icon-network "><img src="svg/icon-youtube.svg" alt="Instagram" onload="SVGInject(this)"></a>
-                    <a href="" target="_blank" class="icon-network "><img src="svg/icon-whatsapp.svg" alt="Instagram" onload="SVGInject(this)"></a>
+                <a data-aos="fade-up" data-aos-delay="400" href="#" class="btn-1">Participe da Jornada</a>
+                <a data-aos="fade-up" data-aos-delay="500" href="#contentGrid" class="btn-2">Grade do Curso</a>
+                <div class="list-icon flex-center mt-1"    >
+                    <a data-aos="fade-up" data-aos-delay="550" href="https://www.instagram.com/esdras.savioli/" target="_blank" class="icon-network ">
+                        <img src="svg/icon-intagram.svg" alt="Instagram" loading="lazy" onload="SVGInject(this)">
+                    </a>
+                    <a data-aos="fade-up" data-aos-delay="600" href="https://www.youtube.com/@vainabiblia" target="_blank" class="icon-network ">
+                        <img src="svg/icon-youtube.svg" alt="Youtube" loading="lazy" onload="SVGInject(this)">
+                    </a>
+                    <a data-aos="fade-up" data-aos-delay="650" href="" target="_blank" class="icon-network ">
+                        <img src="svg/icon-whatsapp.svg" alt="Whatsapp" loading="lazy" onload="SVGInject(this)">
+                    </a>
                 </div>
             </div>
-            <div class="esdras-hero" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom"  data-aos-delay="150"><img src="img/hero2.png" alt="Foto do Esdras Saviole, professor do Curso."></div>
+            <div data-aos="fade-up" data-aos-delay="700" class="esdras-hero"   ><img src="img/hero2.png" alt="Foto do Esdras Saviole, professor do Curso."></div>
         </main>
    </header>
 
 <!-- ======================================= -->
 <!-- //PATH// -->
-   <section class="path container relative flex-column">
-        <h3 class="white-3 mb-3 text-shadow-S1"data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"   >Conhece o chamado de Deus, mas não se sente preparado para cumprir?</h3>
-        <div class="path-card flex-center align-self-start m-3"data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  ><p class="primary-1 p1 text-center">“ Tem difuculdade em entender a Bíblia? ”</p></div>
-        <div class="path-card flex-center align-self-end m-3"data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  ><p class="primary-1 p1 text-center">“ Não consegue ter constância nos<br> 
+<div class="block">
+    <section class="path container relative flex-column">
+        <h3 data-aos="fade-up" data-aos-delay="100" class="white-3 mb-3 text-shadow-S1">Conhece o chamado de Deus, mas não se sente preparado para cumprir?</h3>
+        <div data-aos="fade-left" data-aos-delay="200" class="path-card flex-center align-self-start m-3"  ><p class="primary-1 p1 text-center">“ Tem difuculdade em entender a Bíblia? ”</p></div>
+        <div data-aos="fade-right" data-aos-delay="200" class="path-card flex-center align-self-end m-3"  ><p class="primary-1 p1 text-center">“ Não consegue ter constância nos<br> 
             estudos Bíblicos? ”</p></div>
-        <div class="path-card flex-center  align-self-start m-3"data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  ><p class="primary-1 p1 text-center">“ Tem medo de ensinar algo errado<br>  
+        <div data-aos="fade-left" data-aos-delay="200" class="path-card flex-center  align-self-start m-3"  ><p class="primary-1 p1 text-center">“ Tem medo de ensinar algo errado<br>  
             sobre a Palavra de Deus? ”</p></div>
-        <div class="path-card flex-center  align-self-end m-3"data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  ><p class="primary-1 p1 text-center">“ Não sabe por onde começar sua<br>  
+        <div data-aos="fade-right" data-aos-delay="200" class="path-card flex-center  align-self-end m-3"  ><p class="primary-1 p1 text-center">“ Não sabe por onde começar sua<br>  
             leitura Bíblica? ”</p></div>
-        <h3 class="white-3 mt-7 text-shadow-S1"data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"   >Se sua resposta for “Sim”</h3>
-        <div class="path-video mt-5" ></div>  
-    <div class="desktop bg-path"><img src="svg/bg-path.svg" alt="" onload="SVGInject(this)"></div> 
-    <div class="mobile bg-path"><img src="svg/bg-path-mobile.svg" alt="" onload="SVGInject(this)"></div> 
+        <h3 data-aos="fade-up" data-aos-delay="200" class="white-3 mt-7 text-shadow-S1">Se sua resposta for “Sim”</h3>
+        <div data-aos="zoom-out-up" data-aos-delay="300" class="path-video mt-5" ></div>  
+    <div class="desktop bg-path"><img src="svg/bg-path.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+    <div class="mobile bg-path"><img src="svg/bg-path-mobile.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
 </section>
+</div>
+   
 
 <!-- ======================================= -->
 <!-- //Compass -->
@@ -221,22 +230,23 @@
 <!-- ======================================= -->
 <!-- //CONTENT GRID// -->
 
-<div class="w-100 relative">
-    <div class="icon-circleBlur circle1"></div> 
-    <div class="icon-circleBlur circle2"></div> 
-    <div class="icon-circleBlur circle3"></div> 
-    <div class="icon-circleBlur circle4"></div> 
-    <div class="desktop icon-circleBlur circle5"></div> 
+<div class="w-100 relative hidden">
+    <div data-aos="fade-up" data-aos-delay="100" class="icon-circleBlur circle1"></div> 
+    <div data-aos="fade-up" data-aos-delay="100" class="icon-circleBlur circle2"></div> 
+    <div data-aos="fade-up" data-aos-delay="100" class="icon-circleBlur circle3"></div> 
+    <div data-aos="fade-up" data-aos-delay="100" class="icon-circleBlur circle4"></div> 
+    <div data-aos="fade-up" data-aos-delay="100" class="desktop icon-circleBlur circle5">
+</div> 
 
     <section id="contentGrid" class="contentGrid container flex-wrap ">
-            <div class="text-center mb-2" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                <h4 class="caption">Conteúdo</h4>
-                <h2 class="title">Grade do Curso</h2>
-                <a href="#" class="btn-2">Grade Completa</a>
+            <div class="text-center mb-2" >
+                <h4 data-aos="fade-up" data-aos-delay="100" class="caption">Conteúdo</h4>
+                <h2 data-aos="fade-up" data-aos-delay="200" class="title">Grade do Curso</h2>
+                <a data-aos="fade-up" data-aos-delay="300" href="#" class="btn-2">Grade Completa</a>
             </div>
             <ul class="list-cards flex-center flex-column w-100 ">
-                <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="my-3 content-card  align-self-start flex-center">
-                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
+                <li data-aos="fade-up" data-aos-delay="300"  class="my-3 content-card  align-self-start flex-center">
+                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
                     <div class="description-card">
                         <h3 class="title-card white-3 text-center mb-1"> O PENTATEUCO</h3>
                         <h5 class="white-3 text-center"> O COMEÇO DE TUDO </h5>
@@ -248,8 +258,8 @@
                         </ul>
                     </div>
                 </li>
-                <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  class="my-3 content-card  align-self-end flex-center">
-                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
+                <li data-aos="fade-up" data-aos-delay="200" class="my-3 content-card  align-self-end flex-center">
+                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
                     <div class="description-card">
                         <h3 class="title-card white-3 text-center mb-1"> O PENTATEUCO</h3>
                         <h5 class="white-3 text-center"> O COMEÇO DE TUDO </h5>
@@ -261,8 +271,8 @@
                         </ul>
                     </div>
                 </li>
-                <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  class="my-3 content-card  align-self-start flex-center">
-                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
+                <li data-aos="fade-up" data-aos-delay="200"  class="my-3 content-card  align-self-start flex-center">
+                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
                     <div class="description-card">
                         <h3 class="title-card white-3 text-center mb-1"> O PENTATEUCO</h3>
                         <h5 class="white-3 text-center"> O COMEÇO DE TUDO </h5>
@@ -274,8 +284,8 @@
                         </ul>
                     </div>
                 </li>
-                <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  class="my-3 content-card  align-self-end flex-center">
-                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
+                <li data-aos="fade-up" data-aos-delay="200" class="my-3 content-card  align-self-end flex-center">
+                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
                     <div class="description-card">
                         <h3 class="title-card white-3 text-center mb-1"> O PENTATEUCO</h3>
                         <h5 class="white-3 text-center"> O COMEÇO DE TUDO </h5>
@@ -287,8 +297,8 @@
                         </ul>
                     </div>
                 </li>
-                <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  class="my-3 content-card  align-self-start flex-center">
-                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" onload="SVGInject(this)"></div> 
+                <li data-aos="fade-up" data-aos-delay="200" class="my-3 content-card  align-self-start flex-center">
+                    <div class="icon-content-card mr-3"><img src="svg/imgCourse.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
                     <div class="description-card">
                         <h3 class="title-card white-3 text-center mb-1"> O PENTATEUCO</h3>
                         <h5 class="white-3 text-center"> O COMEÇO DE TUDO </h5>
@@ -309,14 +319,14 @@
 <!-- //Bonus -->
 
 <section class="bonus container flex-wrap ">
-    <div class="text-center m-4" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <h4 class="caption">5 BÔNUS EXCLUSIVOS</h4>
-        <h2 class="title">EXTRAS DO CURSO</h2>
+    <div class="text-center m-4" >
+        <h4 data-aos="fade-up" data-aos-delay="100" class="caption">5 BÔNUS EXCLUSIVOS</h4>
+        <h2 data-aos="fade-up" data-aos-delay="200" class="title">EXTRAS DO CURSO</h2>
     </div>
 
     <ul class="bonus-list flex-center w-100 flex-wrap">
-        <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"   class="bonus-list-item p-3 flex-center flex-column m-2 ">
-            <div class="icon-bonus"><img src="svg/bg-ebook.svg" alt="" onload="SVGInject(this)"></div> 
+        <li data-aos="fade-up" data-aos-delay="300" class="bonus-list-item p-3 flex-center flex-column m-2 ">
+            <div class="icon-bonus"><img src="svg/bg-ebook.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
             <ul class="flex-column mt-1">
@@ -331,8 +341,8 @@
             </ul>
         </li>
 
-        <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"   class="bonus-list-item p-3 flex-center flex-column  m-2 ">
-            <div class="icon-bonus"><img src="svg/bg-ebook.svg" alt="" onload="SVGInject(this)"></div> 
+        <li data-aos="fade-up" data-aos-delay="400" class="bonus-list-item p-3 flex-center flex-column  m-2 ">
+            <div class="icon-bonus"><img src="svg/bg-ebook.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
             <ul class="flex-column mt-1">
@@ -346,8 +356,8 @@
             </ul>
         </li>
 
-        <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"    class="bonus-list-item p-3 flex-center flex-column  m-2 ">
-            <div class="icon-bonus"><img src="svg/bg-pdf.svg" alt="" onload="SVGInject(this)"></div> 
+        <li data-aos="fade-up" data-aos-delay="500" class="bonus-list-item p-3 flex-center flex-column  m-2 ">
+            <div class="icon-bonus"><img src="svg/bg-pdf.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
             <ul class="flex-column mt-1">
@@ -360,8 +370,8 @@
             </ul>
         </li>
 
-        <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  class="bonus-list-item p-3 flex-center flex-column  m-2 ">
-            <div class="icon-bonus"><img src="svg/bg-pdf.svg" alt="" onload="SVGInject(this)"></div> 
+        <li data-aos="fade-up" data-aos-delay="600" class="bonus-list-item p-3 flex-center flex-column  m-2 ">
+            <div class="icon-bonus"><img src="svg/bg-pdf.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
             <ul class="flex-column mt-1">
@@ -374,8 +384,8 @@
             </ul>
         </li>
 
-        <li data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  class="bonus-list-item p-3 flex-center flex-column  m-2 ">
-            <div class="icon-bonus"><img src="svg/bg-slide.svg" alt="" onload="SVGInject(this)"></div> 
+        <li data-aos="fade-up" data-aos-delay="700" class="bonus-list-item p-3 flex-center flex-column  m-2 ">
+            <div class="icon-bonus"><img src="svg/bg-slide.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3 mt-2 text-center">E-BOOK JORNADA<br> 
                 DE GÊNESIS A APOCALIPSE</h4>
             <ul class="flex-column mt-1">
@@ -394,47 +404,71 @@
 <!-- ======================================= -->
 <!-- //SKILLS -->
 
-    <section class="skills container flex-wrap">
+<section class="skills container flex-wrap">
 
-        <div class="text-center " data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="0">
-            <h4 class="caption">OBJETIVO DO CURSO</h4>
-            <h2 class="title">HABILIDADES DESENVOLVIDAS</h2>
+        <div class="text-center "  >
+            <h4 data-aos="fade-up" data-aos-delay="100" class="caption">OBJETIVO DO CURSO</h4>
+            <h2 data-aos="fade-up" data-aos-delay="200" class="title">HABILIDADES DESENVOLVIDAS</h2>
         </div>
     
-        <div class="skills-container flex-center flex-column w-100 mt-6" data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="100">
+        <div class="skills-container flex-center flex-column w-100 mt-6" >
 
             <div class="flex-center">
-                <div class="mobile icon-skill relative m-2 "><img src="svg/bg-hab1.svg" alt="" onload="SVGInject(this)"> <img class="absolute skillOne" src="svg/bg-hab1-active.svg" alt="" onload="SVGInject(this)"></div> 
-                <div class="mobile icon-skill relative m-2 "><img src="svg/bg-hab2.svg" alt="" onload="SVGInject(this)"> <img class="absolute skillTwo" src="svg/bg-hab2-active.svg" alt="" onload="SVGInject(this)"></div> 
-                <div class="mobile icon-skill relative m-2 "><img src="svg/bg-hab3.svg" alt="" onload="SVGInject(this)"> <img class="absolute skillThree" src="svg/bg-hab3-active.svg" alt="" onload="SVGInject(this)"></div> 
-                <div class="mobile icon-skill relative m-2 "><img src="svg/bg-hab4.svg" alt="" onload="SVGInject(this)">  <img class="absolute skillFour" src="svg/bg-hab4-active.svg" alt="" onload="SVGInject(this)"></div> 
+                <div data-aos="fade-up" data-aos-delay="300" class="mobile icon-skill relative m-2 ">
+                    <img src="svg/bg-hab1.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                    <img class="absolute skillOne" src="svg/bg-hab1-active.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                </div> 
+                <div data-aos="fade-up" data-aos-delay="400" class="mobile icon-skill relative m-2 ">
+                    <img src="svg/bg-hab2.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                    <img class="absolute skillTwo" src="svg/bg-hab2-active.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                </div> 
+                <div data-aos="fade-up" data-aos-delay="500" class="mobile icon-skill relative m-2 ">
+                    <img src="svg/bg-hab3.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                    <img class="absolute skillThree" src="svg/bg-hab3-active.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                </div> 
+                <div data-aos="fade-up" data-aos-delay="600" class="mobile icon-skill relative m-2 ">
+                    <img src="svg/bg-hab4.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                    <img class="absolute skillFour" src="svg/bg-hab4-active.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                </div> 
             </div> 
 
-            <div class="desktop icon-skill relative  mb-5"><img src="svg/bg-hab1.svg" alt="" onload="SVGInject(this)"> <img class="absolute skillOne" src="svg/bg-hab1-active.svg" alt="" onload="SVGInject(this)"></div>
+            <div data-aos="fade-up" data-aos-delay="300" class="desktop icon-skill relative  mb-5">
+                <img src="svg/bg-hab1.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                <img class="absolute skillOne" src="svg/bg-hab1-active.svg" alt="" loading="lazy" onload="SVGInject(this)">
+            </div>
             <div class="flex-center">
-                <div class="desktop icon-skill relative mr-6"><img src="svg/bg-hab4.svg" alt="" onload="SVGInject(this)">  <img class="absolute skillFour" src="svg/bg-hab4-active.svg" alt="" onload="SVGInject(this)"></div> 
+                <div data-aos="fade-up" data-aos-delay="600" class="desktop icon-skill relative mr-6">
+                    <img src="svg/bg-hab4.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                    <img class="absolute skillFour" src="svg/bg-hab4-active.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                </div> 
                 <div class="relative">
-                    <div class="text-container skillOne">
-                        <h2 class="white-3 text-center mb-1">Interpretar o Antigo Testamento.</h2>
-                        <p class="p1 primary-1 text-center">Entendera que o Novo Testamento é a chave para a compreenção do Antigo Testamento.</p>
+                    <div  class="text-container skillOne">
+                        <h2 data-aos="fade-up" data-aos-delay="700" class="white-3 text-center mb-1">Interpretar o Antigo Testamento.</h2>
+                        <p data-aos="fade-up" data-aos-delay="800" class="p1 primary-1 text-center">Entendera que o Novo Testamento é a chave para a compreenção do Antigo Testamento.</p>
                     </div>
                     <div class="text-container absolute skillTwo">
-                        <h2 class="white-3 text-center mb-1">Extrair ensinamentos profundos da Bíblia.</h2>
-                        <p class="p1 primary-1 text-center">Conhecerá os contextos bíblicos, com segurança, para aprender e ensinar corretamente.</p>
+                        <h2 data-aos="fade-up" data-aos-delay="700"  class="white-3 text-center mb-1">Extrair ensinamentos profundos da Bíblia.</h2>
+                        <p data-aos="fade-up" data-aos-delay="800"  class="p1 primary-1 text-center">Conhecerá os contextos bíblicos, com segurança, para aprender e ensinar corretamente.</p>
                     </div>
                     <div class="text-container absolute skillThree">
-                        <h2 class="white-3 text-center mb-1">Realizar eficiente leituras da Bíblia.</h2>
-                        <p class="p1 primary-1 text-center">Iniciar sua leitura por qualquer um dos 66 livros da Bíblia sem se confundir.</p>
+                        <h2 data-aos="fade-up" data-aos-delay="700"  class="white-3 text-center mb-1">Realizar eficiente leituras da Bíblia.</h2>
+                        <p data-aos="fade-up" data-aos-delay="800"  class="p1 primary-1 text-center">Iniciar sua leitura por qualquer um dos 66 livros da Bíblia sem se confundir.</p>
                     </div>
                     <div class="text-container absolute skillFour">
-                        <h2 class="white-3 text-center mb-1">Estudar as profecias de Apocalipse.</h2>
-                        <p class="p1 primary-1 text-center">interpretar as profecias e os eventos que marcam os tempos do fim.</p>
+                        <h2 data-aos="fade-up" data-aos-delay="700" class="white-3 text-center mb-1">Estudar as profecias de Apocalipse.</h2>
+                        <p data-aos="fade-up" data-aos-delay="800" class="p1 primary-1 text-center">interpretar as profecias e os eventos que marcam os tempos do fim.</p>
                     </div>
                     
                 </div>
-                <div class=" desktop icon-skill relative ml-6"><img src="svg/bg-hab2.svg" alt="" onload="SVGInject(this)"> <img class="absolute skillTwo" src="svg/bg-hab2-active.svg" alt="" onload="SVGInject(this)"></div> 
+                <div data-aos="fade-up" data-aos-delay="400" class=" desktop icon-skill relative ml-6">
+                    <img src="svg/bg-hab2.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                    <img class="absolute skillTwo" src="svg/bg-hab2-active.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                </div> 
             </div>
-            <div class=" desktop icon-skill relative mt-6"><img src="svg/bg-hab3.svg" alt="" onload="SVGInject(this)"> <img class="absolute  skillThree" src="svg/bg-hab3-active.svg" alt="" onload="SVGInject(this)"></div> 
+            <div data-aos="fade-up" data-aos-delay="500" class=" desktop icon-skill relative mt-6">
+                <img src="svg/bg-hab3.svg" alt="" loading="lazy" onload="SVGInject(this)">
+                <img class="absolute  skillThree" src="svg/bg-hab3-active.svg" alt="" loading="lazy" onload="SVGInject(this)">
+            </div> 
         </div>
     
         
@@ -448,46 +482,31 @@
 <!-- <div class="relative"> -->
 <section class="people container flex-wrap relative ">
 
-    <div class="flex-center flex-column text-center w-100 mb-4" data-aos="fade-up" ata-aos-anchor-placement="top-bottom"  data-aos-delay="0">
-        <h4 class="caption">JORNADA GÊNESIS  A APOCALIPSE</h4>
-        <h2 class="title">Aqueles que percorreram<br>
+    <div class="flex-center flex-column text-center w-100 mb-4"  >
+        <h4  data-aos="fade-up" data-aos-delay="100" class="caption">JORNADA GÊNESIS  A APOCALIPSE</h4>
+        <h2  data-aos="fade-up" data-aos-delay="200" class="title">Aqueles que percorreram<br>
             a Jornada</h2>
-        <div class="icon-stars m-2"><img src="svg/icon-stars.svg" alt="" onload="SVGInject(this)"></div> 
-        <h5 class="white-3">Avaliação hotmart</h5>
+        <div data-aos="fade-up" data-aos-delay="300" class="icon-stars m-2"><img src="svg/icon-stars.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <h5 data-aos="fade-up" data-aos-delay="400" class="white-3">Avaliação hotmart</h5>
         <div class="flex-center mt-1">
-            <div class="icon-hotmart"><img src="svg/icon-hotmart.svg" alt="" onload="SVGInject(this)"></div> 
-            <h3 class="white-3 ml-2">5.0</h3>
+            <div data-aos="fade-up" data-aos-delay="500" class="icon-hotmart"><img src="svg/icon-hotmart.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+            <h3 data-aos="fade-up" data-aos-delay="500" class="white-3 ml-2">5.0</h3>
         </div>
-        <a href="#curriculum" class="btn-2">Ver avaliações</a>
+        <a data-aos="fade-up" data-aos-delay="600" href="#curriculum" class="btn-2">Ver avaliações</a>
         
     </div>
-        <div class=" icon-person-mov1 desktop icon-person1 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov3 desktop icon-person2 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov2 desktop icon-person3 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov1 desktop icon-person4 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov1 desktop icon-person5 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov2 desktop icon-person6 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov3 desktop icon-person7 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov3 desktop icon-person8 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov2 desktop icon-person9 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov1 desktop icon-person10 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov3 desktop icon-person11 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov2 desktop icon-person12 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-
-        <div class=" icon-person-mov1-mobile mobile icon-person1 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov3-mobile mobile icon-person2 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov2-mobile mobile icon-person3 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov1-mobile mobile icon-person4 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov1-mobile mobile icon-person5 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov2-mobile mobile icon-person6 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov3-mobile mobile icon-person7 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov3-mobile mobile icon-person8 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov1-mobile mobile icon-person10 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov3-mobile mobile icon-person11 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-        <div class=" icon-person-mov2-mobile mobile icon-person12 absolute"><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
-
-        
-
+        <div class=" icon-person-mov1 icon-person1 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov3 icon-person2 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov2 icon-person3 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov1 icon-person4 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov1 icon-person5 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov2 icon-person6 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov3 icon-person7 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov3 icon-person8 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov2 icon-person9 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov1 icon-person10 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov3 icon-person11 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
+        <div class=" icon-person-mov2 icon-person12 absolute"><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
 </section>
 
 <!-- ======================================= -->
@@ -495,55 +514,55 @@
 
 //Mobile -->
 <section class="mobile container flex-wrap " >
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center"   class="text-center m-4">
-        <h4 class="caption">AVALIAÇÃO DOS NOSSOS ALUNOS</h4>
-        <h2 class="title">Depoimentos</h2>
-        <a href="#" class="btn-2">Grade do Curso</a>
+    <div  class="text-center m-4">
+        <h4 data-aos="fade-up" data-aos-delay="100" class="caption">AVALIAÇÃO DOS NOSSOS ALUNOS</h4>
+        <h2 data-aos="fade-up" data-aos-delay="200" class="title">Depoimentos</h2>
+        <a  data-aos="fade-up" data-aos-delay="300" href="#" class="btn-2">Grade do Curso</a>
     </div>
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  class="depositions-card p-3 flex-center flex-column m-2" >
+    <div data-aos="fade-up" data-aos-delay="400" class="depositions-card p-3 flex-center flex-column m-2" >
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
             amet, consectetur.”
         </p>
         <div class="flex-center mt-4" >
-            <div class=""><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class=""><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3">Maria Alves</h4>
         </div>
     </div>
 
-     <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  class="depositions-card p-3 flex-center flex-column m-2">
+     <div data-aos="fade-up" data-aos-delay="300" class="depositions-card p-3 flex-center flex-column m-2">
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
             amet, consectetur.”
         </p>
         <div class="flex-center mt-4">
-            <div class=""><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class=""><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3">Maria Alves</h4>
         </div>
     </div>
 
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center"   class="depositions-card p-3 flex-center flex-column m-2">
+    <div data-aos="fade-up" data-aos-delay="300" class="depositions-card p-3 flex-center flex-column m-2">
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
             amet, consectetur.”
         </p>
         <div class="flex-center mt-4">
-            <div class=""><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class=""><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3">Maria Alves</h4>
         </div>
     </div>
 
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center" class="depositions-card p-3 flex-center flex-column m-2">
+    <div data-aos="fade-up" data-aos-delay="300" class="depositions-card p-3 flex-center flex-column m-2">
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
             amet, consectetur.”
         </p>
         <div class="flex-center mt-4">
-            <div class=""><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class=""><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3">Maria Alves</h4>
         </div>
     </div>
@@ -551,56 +570,56 @@
 </section>
 <!-- //Desktop -->
 <section class="desktop container flex-wrap" >
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="50" class="depositions-card p-3 flex-center flex-column m-1" >
+    <div data-aos="fade-up" data-aos-delay="400" class="depositions-card p-3 flex-center flex-column m-1" >
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
             amet, consectetur.”
         </p>
         <div class="flex-center mt-4" >
-            <div class=""><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class=""><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3">Maria Alves</h4>
         </div>
     </div>
 
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="0" class="text-center p-1">
+    <div data-aos="fade-up" data-aos-delay="500" class="text-center p-1">
         <h4 class="caption">AVALIAÇÃO DOS NOSSOS ALUNOS</h4>
         <h2 class="title">Depoimentos</h2>
         <a href="#" class="btn-2">Grade do Curso</a>
     </div>
 
-     <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="100" class="depositions-card p-3 flex-center flex-column m-1">
+     <div data-aos="fade-up" data-aos-delay="600" class="depositions-card p-3 flex-center flex-column m-1">
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
             amet, consectetur.”
         </p>
         <div class="flex-center mt-4">
-            <div class=""><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class=""><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3">Maria Alves</h4>
         </div>
     </div>
 
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="150" class="depositions-card p-3 flex-center flex-column flex-item-2 m-1">
+    <div data-aos="fade-up" data-aos-delay="700" class="depositions-card p-3 flex-center flex-column flex-item-2 m-1">
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
             amet, consectetur.”
         </p>
         <div class="flex-center mt-4">
-            <div class=""><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class=""><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3">Maria Alves</h4>
         </div>
     </div>
 
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="200" class="depositions-card p-3 flex-center flex-column m-1">
+    <div data-aos="fade-up" data-aos-delay="800" class="depositions-card p-3 flex-center flex-column m-1">
         <p class="p2 text-gradient text-center">
             “Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit 
             amet, consectetur.”
         </p>
         <div class="flex-center mt-4">
-            <div class=""><img src="svg/icon-person1.svg" alt="" onload="SVGInject(this)"></div> 
+            <div class=""><img src="svg/icon-person1.svg" alt="" loading="lazy" onload="SVGInject(this)"></div> 
             <h4 class="white-3">Maria Alves</h4>
         </div>
     </div>
@@ -755,30 +774,30 @@
 
 <section class="container">
 
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="0" class="descrition relative">
+    <div class="descrition relative">
         <div class="description-card1 card-enable instructor-container text-center flex-center flex-column ">
-            <h4 class="caption">Descrição</h4>
-            <h2 class="title">Participação no 
+            <h4 data-aos="fade-up" data-aos-delay="100" class="caption">Descrição</h4>
+            <h2 data-aos="fade-up" data-aos-delay="200" class="title">Participação no 
                 Jesus Copy</h2>
-            <p class="text-gradient p2 text-center mt-3">Resumo : Lorem ipsum dolor sit amet, consectetur adipiscing 
+            <p data-aos="fade-up" data-aos-delay="300"class="text-gradient p2 text-center mt-3">Resumo : Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Tellus justo, eu pharetra lectus sed.</p>
         </div>
 
         <div class="description-card2 card-enable absolute instructor-container text-center flex-center flex-column ">
-            <h4 class="caption">Descrição</h4>
-            <h2 class="title">Canal no Youtube</h2>
-            <p class="text-gradient p2 text-center mt-3">Resumo : Lorem ipsum dolor sit amet, consectetur adipiscing 
+            <h4 data-aos="fade-up" data-aos-delay="100" class="caption">Descrição</h4>
+            <h2 data-aos="fade-up" data-aos-delay="200" class="title">Canal no Youtube</h2>
+            <p data-aos="fade-up" data-aos-delay="300" class="text-gradient p2 text-center mt-3">Resumo : Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Tellus justo, eu pharetra lectus sed.</p>
         </div>
 
         <div class="description-card3 card-enable absolute instructor-container text-center flex-center flex-column ">
-            <h4 class="caption">Descrição</h4>
-            <h2 class="title">Canal 6H07</h2>
-            <p class="text-gradient p2 text-center mt-3">Resumo : Lorem ipsum dolor sit amet, consectetur adipiscing 
+            <h4 data-aos="fade-up" data-aos-delay="100" class="caption">Descrição</h4>
+            <h2 data-aos="fade-up" data-aos-delay="200" class="title">Canal 6H07</h2>
+            <p data-aos="fade-up" data-aos-delay="300" class="text-gradient p2 text-center mt-3">Resumo : Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Tellus justo, eu pharetra lectus sed.</p>
@@ -786,7 +805,7 @@
     </div>
     
     <!-- //Mobile -->  
-        <div class="mobile" data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="50">
+        <div data-aos="fade-up" data-aos-delay="400" class="mobile" >
             <div class="photos-container relative w-100 flex-center flex-column">
                 <div class="border-photo item1"></div>
                 <div class="border-photo item2 absolute "></div>
@@ -796,36 +815,42 @@
         
         <!-- //Desktop -->
 
-        <div class="desktop" data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="50">
+        <div class="desktop"   >
             <div class="photos-container flex-center flex-column flex-item-2">
 
-                <div class="mb-2 border-photo item1"></div>
-                <div class="mb-2 border-photo item2"></div>
-                <div class="border-photo item3"></div>  
+                <div data-aos="fade-up" data-aos-delay="500" class="mb-2 border-photo item1"></div>
+                <div data-aos="fade-up" data-aos-delay="600" class="mb-2 border-photo item2"></div>
+                <div data-aos="fade-up" data-aos-delay="700" class="border-photo item3"></div>  
                  
             </div>
         </div>
 
-    <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="100" class="instructor-container text-center flex-center flex-column">
-        <h4 class="caption">INSTRUTOR</h4>
-        <h2 class="title">Esdras Saviole</h2>
-        <p class="text-gradient p2 text-center mt-3">Resumo : Lorem ipsum dolor sit amet, consectetur adipiscing 
+    <div  class="instructor-container text-center flex-center flex-column">
+        <h4 data-aos="fade-up" data-aos-delay="800" class="caption">INSTRUTOR</h4>
+        <h2 data-aos="fade-up" data-aos-delay="900" class="title">Esdras Saviole</h2>
+        <p data-aos="fade-up" data-aos-delay="1000" class="text-gradient p2 text-center mt-3">Resumo : Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit. Tellus justo, eu pharetra lectus sed.</p>
         <div class="flex-center mt-2">
             <ul class="instructor-description-list">
-                <li class="bg-check p2 description-item text-gradient">Mais Descrições</li>
-                <li class="bg-check p2 description-item text-gradient">Mais Descrições</li>
+                <li data-aos="fade-up" data-aos-delay="1200"class="bg-check p2 description-item text-gradient">Mais Descrições</li>
+                <li data-aos="fade-up" data-aos-delay="1300"class="bg-check p2 description-item text-gradient">Mais Descrições</li>
                 <li>
                     <div class="flex-center mt-2">
-                        <a href="https://www.instagram.com/vainabiblia/" target="_blank" class="icon-network p-1 mb-1"><img src="svg/icon-intagram.svg" alt="Instagram" onload="SVGInject(this)"></a>
-                        <a href="https://www.youtube.com/@vainabiblia" target="_blank" class="icon-network p-1 mb-1"><img src="svg/icon-youtube.svg" alt="Instagram" onload="SVGInject(this)"></a>
-                        <a href="" target="_blank" class="icon-network p-1 mb-1"><img src="svg/icon-whatsapp.svg" alt="Instagram" onload="SVGInject(this)"></a>
+                        <a data-aos="fade-up" data-aos-delay="1400" href="https://www.instagram.com/esdras.savioli/" target="_blank" class="icon-network p-1 mb-1">
+                            <img src="svg/icon-intagram.svg" alt="Instagram" loading="lazy" onload="SVGInject(this)">
+                        </a>
+                        <a data-aos="fade-up" data-aos-delay="1450"href="https://www.youtube.com/@vainabiblia" target="_blank" class="icon-network p-1 mb-1">
+                            <img src="svg/icon-youtube.svg" alt="youtube" loading="lazy" onload="SVGInject(this)">
+                        </a>
+                        <a data-aos="fade-up" data-aos-delay="1500"href="" target="_blank" class="icon-network p-1 mb-1">
+                            <img src="svg/icon-whatsapp.svg" alt="whatsapp" loading="lazy" onload="SVGInject(this)">
+                        </a>
                     </div>
                 </li>
             </ul>
-            <div class="icon-imgCourse ml-4"><img src="img/esdras1.png" alt="" onload="SVGInject(this)"></div> 
+            <div data-aos="fade-up" data-aos-delay="1600" class="icon-imgCourse ml-4"><img src="img/esdras1.png" alt="" loading="lazy" onload="SVGInject(this)"></div> 
         </div>    
     </div>
 </section>
@@ -833,52 +858,52 @@
 
 <!-- //sales section -->
 <section class="relative">
-
-    <div class="bg-sale"><img src="img/bg-sale.png" alt="Imagem de um Mapa como fundo da página" onload="SVGInject(this)"></div>
-
+    <div class="bg-sale">
+        <img class="svg-bg-sale" src="img/bg-sale.png" alt="Imagem de um Mapa como fundo da página" loading="lazy" onload="SVGInject(this)">
+    </div>
     <div class="sale-section container flex-column">
         <div class="desktop">
-            <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="0" class="logoGA-sales"><img src="img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
+            <div data-aos="fade-up" data-aos-delay="100" class="logoGA-sales"><img src="img/LogoJornada.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
         </div>
         <div class="mobile">
-            <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="0" class="logoGA-sales"><img src="img/LogoJornada-mobile.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
+            <div data-aos="fade-up" data-aos-delay="100" class="logoGA-sales"><img src="img/LogoJornada-mobile.png" alt="Logo da Jornada Gênesis a Apocalipse."></div>
         </div>
 
-        
-        <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="50" class="text-center mt-2">
-            <h4 class="caption">VENHA PARTICIPAR DESTA JORNADA</h4>
-            <h2 class="title">Inscrição aberta</h2>
-            <!-- <a href="#" class="btn-2">Grade do Curso</a> -->
+        <div class="text-center mt-2">
+            <h4 data-aos="fade-up" data-aos-delay="200" class="caption">VENHA PARTICIPAR DESTA JORNADA</h4>
+            <h2 data-aos="fade-up" data-aos-delay="300" class="title">Inscrição aberta</h2>
         </div>
-        <ul data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="100" class="sale-list mt-3">
-            <li class="sale-list-item bg-star white-3 p2">Acesso a todas atualizações
+        <ul  class="sale-list mt-3">
+            <li data-aos="fade-up" data-aos-delay="400" class="sale-list-item bg-star white-3 p2">Acesso a todas atualizações
                 durante o período de acesso</li>
-            <li class="sale-list-item bg-star white-3 p2 my-1">Acesso ao conteúdo Bônus</li>
-            <li class="sale-list-item bg-star primary-1 p1 text-shadow-S1">Garantia de 15 dias INCONDICIONAL</li>
+            <li data-aos="fade-up" data-aos-delay="450" class="sale-list-item bg-star white-3 p2 my-1">Acesso ao conteúdo Bônus</li>
+            <li data-aos="fade-up" data-aos-delay="500" class="sale-list-item bg-star primary-1 p1 text-shadow-S1">Garantia de 15 dias INCONDICIONAL</li>
         </ul>
         
-        <div data-aos="fade-up" ata-aos-anchor-placement="top-center"  data-aos-delay="150" class="flex-center mt-3"> 
+        <div   class="flex-center mt-3"> 
             <div class="mx-1 annual-plan flex-center flex-column">
-                <h2 class="white-3 mb-3">Plano Anual</h2>
-                <h5 class="white-3">De R$ 297,00</h5>
-                <h3 class="white-1 m-2">12x de R$ 9,68</h3>
-                <h5 class="white-3">ou R$ 97,00 à vista</h5>
-                <div class="desktop"><a href="#" class=" btn-2"  style = "max-width: 260px">Participe da Jornada</a></div>
-                <div class="mobile"><a href="#" class=" btn-2 mt-2"  style = "max-width: 260px">Inscreva-se</a></div>
+                <h2 data-aos="fade-up" data-aos-delay="600" class="white-3 mb-3">Plano Anual</h2>
+                <h5 data-aos="fade-up" data-aos-delay="650" class="white-3">De R$ 297,00</h5>
+                <h3 data-aos="fade-up" data-aos-delay="700" class="white-1 m-2">12x de R$ 9,68</h3>
+                <h5 data-aos="fade-up" data-aos-delay="750" class="white-3">ou R$ 97,00 à vista</h5>
+                <div data-aos="fade-up" data-aos-delay="800" class="desktop"><a href="#" class=" btn-2"  style = "max-width: 260px">Participe da Jornada</a></div>
+                <div data-aos="fade-up" data-aos-delay="800" class="mobile"><a href="#" class=" btn-2 mt-2"  style = "max-width: 260px">Inscreva-se</a></div>
             </div>
             <div class="mx-1 lifetime-plan flex-center flex-column">
-                <h2 class="white-3 mb-3">Plano Vitalício</h2>
-                <h5 class="white-3">De R$ 597,00</h5>
-                <h3 class="white-1 m-2">12x de R$ 14,68</h3>
-                <h5 class="white-3">ou R$ 147,00 à vista</h5>
-                <div class="desktop"><a href="#" class=" btn-1">Participe da Jornada</a></div>
-                <div class="mobile"><a href="#" class=" btn-1 mt-2">Inscreva-se</a></div>
+                <h2 data-aos="fade-up" data-aos-delay="600" class="white-3 mb-3">Plano Vitalício</h2>
+                <h5 data-aos="fade-up" data-aos-delay="650" class="white-3">De R$ 597,00</h5>
+                <h3 data-aos="fade-up" data-aos-delay="700"class="white-1 m-2">12x de R$ 14,68</h3>
+                <h5 data-aos="fade-up" data-aos-delay="750"class="white-3">ou R$ 147,00 à vista</h5>
+                <div data-aos="fade-up" data-aos-delay="800" class="desktop"><a href="#" class=" btn-1">Participe da Jornada</a></div>
+                <div data-aos="fade-up" data-aos-delay="800" class="mobile"><a href="#" class=" btn-1 mt-2">Inscreva-se</a></div>
             </div>
         </div>
-        
+
+        <p data-aos="fade-up" data-aos-delay="900" class="p1 px-4 mt-4 text-center">VAI NA BÍBLIA © 2022 Todos Os Direitos Reservados.</p>
+
     </div>
-    <p class="p1 px-4 text-center ">VAI NA BÍBLIA © 2022 Todos Os Direitos Reservados.</p>
 </section>
+
 
 
 <!-- ======================================= -->
@@ -896,7 +921,8 @@
     AOS.init({
         easing : "ease-out-quart",
         duration : 1000,
-        once:true
+        once:true,
+        anchorPlacement: 'bottom-bottom'
     });
   </script>
 </body>

@@ -5,7 +5,9 @@
   justify-content: flex-start;
   align-items: center;
 }
-
+.br{
+  max-width: 40px;
+}
 .flex-center {
   display: flex;
   justify-content: center;
@@ -154,33 +156,55 @@
   }
 }
 
+// .bg-hero{
+//   width: 100%;
+//   @include responsive(s){
+//     width: 150%;
+//     top: 0px;
+//     left: -50%;
+
+//   }
+//   @include responsive(xs){
+//     width: 250%;
+//     top: 0px;
+//     left: -100%;
+//   }
+  
+//   position: absolute;
+//   top: 0px;
+//   left: 0px;
+
+//   overflow: hidden;
+
+//   z-index:-1;
+// }
+
 .bg-hero{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  position: absolute;
+
+  z-index: -1;
+  
+}
+
+.svg-bg-hero{
   width: 100%;
   @include responsive(s){
     width: 150%;
-    top: 0px;
-    left: -50%;
-
+    transform: translateX(-40%);
   }
   @include responsive(xs){
     width: 250%;
-    top: 0px;
-    left: -100%;
+    transform: translateX(-45%);
   }
-  
-  position: absolute;
-  top: 0px;
-  left: 0px;
-
-  overflow: hidden;
-
-  z-index:-1;
 }
 
 .hero{
   width: 100%;
   height : 100vh;
-
   @include responsive(xs){
     height: 100%;
   }
@@ -223,6 +247,9 @@
 //PATH
 
 .path{
+  @include responsive (xs){
+    height: 100vh;
+  }
   h3{
     text-align: center;
   }
@@ -260,22 +287,6 @@
     }
 }
 
-.bg-sale{
-  width: 100%;
-
-  position: absolute;
-  top: 0px;
-  left: 0px;
-
-  @include responsive(xs){
-    width: 350%;
-    top: 7%;
-    left: 0px;
-  }
-  overflow: hidden;
-
-  z-index:-1;
-}
 
 //content grid
 
@@ -320,7 +331,7 @@
 .skills{
   height: 90vh;
   @include responsive(xs){
-    height: 80vh;
+    height: 50vh;
   }
   .skills-container{
     @include responsive(xs){
@@ -479,6 +490,43 @@
 .sale-section{
   width: 100%;
   height: 90vh;
+
+  .btn-1,.btn-2{
+    margin : 1rem;
+  }
+}
+// .bg-sale{
+//   width: 100%;
+
+//   position: absolute;
+//   top: 0px;
+//   left: 0px;
+
+//   @include responsive(xs){
+//     width: 350%;
+//     top: 7%;
+//     left: 0px;
+//   }
+//   overflow: hidden;
+
+//   z-index:-1;
+// }
+.bg-sale{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  position: absolute;
+
+  z-index: -1;
+}
+.svg-bg-sale{
+  width: 100%;
+
+  @include responsive(xs) {
+    width: 350%;
+    transform: translate3d(-5% , 3% , 0);
+  }
 }
 
 

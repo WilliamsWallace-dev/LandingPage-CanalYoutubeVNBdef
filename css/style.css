@@ -1519,16 +1519,19 @@ ul {
 .skillOne {
   top: 0;
   left: 0;
+  animation: skillOne-opacity 30s ease infinite both alternate-reverse;
 }
 
 .skillTwo {
   top: 0;
   left: 0;
+  animation: skillTwo-opacity 30s ease infinite both alternate-reverse;
 }
 
 .skillThree {
   top: 0;
   left: 0;
+  animation: skillThree-opacity 30s ease infinite both alternate-reverse;
 }
 @media screen and (max-width: 540px) {
   .skillThree {
@@ -1539,6 +1542,7 @@ ul {
 .skillFour {
   top: 0;
   left: 0;
+  animation: skillFour-opacity 30s ease infinite both alternate-reverse;
 }
 @media screen and (max-width: 540px) {
   .skillFour {
@@ -1549,16 +1553,19 @@ ul {
 .descriptionOne {
   top: 0;
   left: 0;
+  animation: descriptionOne-opacity 30s ease infinite both alternate-reverse;
 }
 
 .descriptionTwo {
   top: 0;
   left: 0;
+  animation: descriptionTwo-opacity 30s ease infinite both alternate-reverse;
 }
 
 .descriptionThree {
   top: 0;
   left: 0;
+  animation: descriptionThree-opacity 30s ease infinite both alternate-reverse;
 }
 @media screen and (max-width: 540px) {
   .descriptionThree {
@@ -1569,6 +1576,7 @@ ul {
 .descriptionFour {
   top: 0;
   left: 0;
+  animation: descriptionFour-opacity 30s ease infinite both alternate-reverse;
 }
 @media screen and (max-width: 540px) {
   .descriptionFour {
@@ -1812,38 +1820,6 @@ ul {
     opacity: 100;
   }
 }
-.skillOne {
-  animation: skillOne-opacity 30s ease infinite alternate-reverse;
-}
-
-.skillTwo {
-  animation: skillTwo-opacity 30s ease infinite alternate-reverse;
-}
-
-.skillThree {
-  animation: skillThree-opacity 30s ease infinite alternate-reverse;
-}
-
-.skillFour {
-  animation: skillFour-opacity 30s ease infinite alternate-reverse;
-}
-
-.descriptionOne {
-  animation: descriptionOne-opacity 30s ease infinite both alternate-reverse;
-}
-
-.descriptionTwo {
-  animation: descriptionTwo-opacity 30s ease infinite both alternate-reverse;
-}
-
-.descriptionThree {
-  animation: descriptionThree-opacity 30s ease infinite both alternate-reverse;
-}
-
-.descriptionFour {
-  animation: descriptionFour-opacity 30s ease infinite both alternate-reverse;
-}
-
 @keyframes skillOne-opacity {
   0%, 20% {
     opacity: 100;

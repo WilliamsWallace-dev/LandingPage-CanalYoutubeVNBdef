@@ -203,14 +203,17 @@
 .skillOne{
   top: 0;
   left: 0;
+  animation: skillOne-opacity 30s ease   infinite both alternate-reverse;
 }
 .skillTwo{
   top: 0;
   left: 0;
+  animation: skillTwo-opacity 30s ease   infinite both alternate-reverse;
 }
 .skillThree{
   top: 0;
   left: 0;
+  animation: skillThree-opacity 30s ease   infinite both alternate-reverse;
   @include responsive(xs){
     transform: translateY(-7px);
   }
@@ -218,6 +221,7 @@
 .skillFour{
   top: 0;
   left: 0;
+  animation: skillFour-opacity 30s ease   infinite both alternate-reverse;
   @include responsive(xs){
     transform: translateY(-3px);
   }
@@ -225,14 +229,17 @@
 .descriptionOne{
   top: 0;
   left: 0;
+  animation: descriptionOne-opacity 30s ease   infinite both alternate-reverse;
 }
 .descriptionTwo{
   top: 0;
   left: 0;
+  animation: descriptionTwo-opacity 30s ease  infinite both alternate-reverse;
 }
 .descriptionThree{
   top: 0;
   left: 0;
+  animation: descriptionThree-opacity 30s ease  infinite both alternate-reverse;
   @include responsive(xs){
     transform: translateY(-7px);
   }
@@ -240,10 +247,12 @@
 .descriptionFour{
   top: 0;
   left: 0;
+  animation: descriptionFour-opacity 30s ease  infinite both alternate-reverse;
   @include responsive(xs){
     transform: translateY(-3px);
   }
 }
+
 
 .skill-active{
   box-shadow: 0px -12px 51px rgba(219, 152, 101, 0.19),

@@ -1829,19 +1829,19 @@ ul {
 }
 
 .descriptionOne {
-  animation: descriptionOne-opacity 30s ease infinite alternate-reverse;
+  animation: descriptionOne-opacity 30s ease 0.5s infinite both alternate-reverse;
 }
 
 .descriptionTwo {
-  animation: descriptionTwo-opacity 30s ease infinite alternate-reverse;
+  animation: descriptionTwo-opacity 30s ease 0.5s infinite both alternate-reverse;
 }
 
 .descriptionThree {
-  animation: descriptionThree-opacity 30s ease infinite alternate-reverse;
+  animation: descriptionThree-opacity 30s ease 0.5s infinite both alternate-reverse;
 }
 
 .descriptionFour {
-  animation: descriptionFour-opacity 30s ease infinite alternate-reverse;
+  animation: descriptionFour-opacity 30s ease 0.5s infinite both alternate-reverse;
 }
 
 @keyframes skillOne-opacity {

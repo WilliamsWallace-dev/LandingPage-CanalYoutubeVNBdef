@@ -135,17 +135,18 @@
 
 //skills
 .skillOne{
-    animation: skillOne-opacity 30s ease infinite alternate-reverse;
+    animation: skillOne-opacity 30s ease infinite;
   }
   .skillTwo{
-    animation: skillTwo-opacity 30s ease infinite alternate-reverse;
+    animation: skillTwo-opacity 30s ease infinite;
   }
   .skillThree{
-    animation: skillThree-opacity 30s ease infinite alternate-reverse;
+    animation: skillThree-opacity 30s ease infinite;
   }
   .skillFour{
-    animation: skillFour-opacity 30s ease infinite alternate-reverse;
+    animation: skillFour-opacity 30s ease infinite;
   }
+ 
 
 
 @keyframes skillOne-opacity {

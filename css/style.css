@@ -748,7 +748,6 @@ p {
   border: none;
   text-decoration: none;
   cursor: pointer;
-  transition: 0.5s ease;
   max-width: 260px;
   height: 56px;
   padding: 16px 48px;
@@ -759,15 +758,7 @@ p {
   font-size: 16px;
   line-height: 130%;
   font-weight: 400;
-  transition: all 0.5s ease;
-}
-@media screen and (max-width: 960px) {
-  .btn-1 {
-    margin: 12px 8px;
-  }
-}
-.btn-1:hover {
-  transform: scale(0.98);
+  transition: 0.5s ease;
 }
 @media screen and (max-width: 960px) {
   .btn-1 {
@@ -777,10 +768,11 @@ p {
     max-width: 240px;
     height: 52px;
     padding: 16px 24px;
-    margin-top: 24px;
+    margin: 12px 8px;
   }
 }
 .btn-1:hover {
+  transform: scale(0.98);
   box-shadow: 0px 9px 19px rgba(247, 244, 242, 0.13), 0px 3.28515px 6.93531px rgba(247, 244, 242, 0.0896976), 0px 1.59488px 3.36697px rgba(247, 244, 242, 0.0723178), 0px 0.781839px 1.65055px rgba(247, 244, 242, 0.0576822), 0px 0.30914px 0.65263px rgba(247, 244, 242, 0.0403024);
 }
 
@@ -1379,15 +1371,12 @@ ul {
 
 .list-icon {
   position: absolute;
-  left: 25%;
+  left: 28%;
 }
 @media screen and (max-width: 540px) {
   .list-icon {
     position: relative;
     left: 0;
-    display: flex;
-    justify-content: start;
-    align-items: center;
     margin-top: 0px;
     margin-bottom: 1rem;
   }
@@ -1399,7 +1388,7 @@ ul {
   padding: 0.5rem;
   margin-right: 0.5rem;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 }
 @media screen and (max-width: 540px) {
   .icon-network {
@@ -1410,8 +1399,17 @@ ul {
   }
 }
 .icon-network:hover {
-  filter: drop-shadow(0px -12px 51px rgba(219, 152, 101, 0.19)) drop-shadow(0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096)) drop-shadow(0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695)) drop-shadow(0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048)) drop-shadow(0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035));
   transform: scale(1.02) translate3d(0, -2px, 0);
+  filter: drop-shadow(0px -12px 51px rgba(219, 152, 101, 0.19)) drop-shadow(0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096)) drop-shadow(0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695)) drop-shadow(0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048)) drop-shadow(0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035));
+}
+
+.icon-youtube {
+  max-width: 44px;
+}
+@media screen and (max-width: 540px) {
+  .icon-youtube {
+    max-width: 44px;
+  }
 }
 
 .title-card {
@@ -1785,19 +1783,19 @@ ul {
   }
 }
 .skillOne {
-  animation: skillOne-opacity 30s ease infinite alternate-reverse;
+  animation: skillOne-opacity 30s ease infinite;
 }
 
 .skillTwo {
-  animation: skillTwo-opacity 30s ease infinite alternate-reverse;
+  animation: skillTwo-opacity 30s ease infinite;
 }
 
 .skillThree {
-  animation: skillThree-opacity 30s ease infinite alternate-reverse;
+  animation: skillThree-opacity 30s ease infinite;
 }
 
 .skillFour {
-  animation: skillFour-opacity 30s ease infinite alternate-reverse;
+  animation: skillFour-opacity 30s ease infinite;
 }
 
 @keyframes skillOne-opacity {

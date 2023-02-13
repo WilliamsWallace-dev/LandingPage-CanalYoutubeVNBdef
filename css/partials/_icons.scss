@@ -34,13 +34,10 @@
 
 .list-icon{
   position: absolute;
-  left: 25%;
+  left: 28%;
   @include responsive(xs){
     position: relative;
     left: 0;
-    display: flex;
-    justify-content: start;
-    align-items: center;
     margin-top: 0px;
     margin-bottom: 1rem;
   }
@@ -57,18 +54,25 @@
     margin-right: 0.25rem;
     // margin: 1rem .25rem;
   }
-
   cursor: pointer;
 
-  transition: .3s ease;
+  transition: .5s ease;
   &:hover{
+    transform: scale(1.02) translate3d(0,-2px,0);
     filter: drop-shadow(0px -12px 51px rgba(219, 152, 101, 0.19)) 
     drop-shadow(0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096)) 
     drop-shadow(0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695)) 
     drop-shadow(0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048)) 
     drop-shadow(0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035));
-    transform: scale(1.02) translate3d(0,-2px,0);
+    
+} 
 }
+
+.icon-youtube{
+  max-width: 44px;
+  @include responsive(xs){
+    max-width: 44px;
+  }
 }
 
 .title-card{

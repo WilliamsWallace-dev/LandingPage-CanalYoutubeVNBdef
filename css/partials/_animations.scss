@@ -135,16 +135,29 @@
 
 //skills
 .skillOne{
-    animation: skillOne-opacity 30s ease infinite;
+    animation: skillOne-opacity 30s ease infinite alternate-reverse;
   }
   .skillTwo{
-    animation: skillTwo-opacity 30s ease infinite;
+    animation: skillTwo-opacity 30s ease infinite alternate-reverse;
   }
   .skillThree{
-    animation: skillThree-opacity 30s ease infinite;
+    animation: skillThree-opacity 30s ease infinite alternate-reverse;
   }
   .skillFour{
-    animation: skillFour-opacity 30s ease infinite;
+    animation: skillFour-opacity 30s ease infinite alternate-reverse;
+  }
+
+  .descriptionOne{
+    animation: descriptionOne-opacity 30s ease infinite alternate-reverse;
+  }
+  .descriptionTwo{
+    animation: descriptionTwo-opacity 30s ease infinite alternate-reverse;
+  }
+  .descriptionThree{
+    animation: descriptionThree-opacity 30s ease infinite alternate-reverse;
+  }
+  .descriptionFour{
+    animation: descriptionFour-opacity 30s ease infinite alternate-reverse;
   }
  
 
@@ -192,6 +205,63 @@
     }
 }
 @keyframes skillFour-opacity {
+    0%,20%{
+        opacity: 0;
+    }
+    25%,45%{
+        opacity: 0;
+    }
+    50%,70%{
+        opacity: 0;    
+    }
+    75%,100%{
+        opacity: 100;
+    }
+}
+
+@keyframes descriptionOne-opacity {
+    0%,20%{
+        opacity: 100;
+    }
+    25%,45%{
+        opacity: 0;
+    }
+    50%,70%{
+        opacity: 0;    
+    }
+    75%,100%{
+        opacity: 0;
+    }
+}
+@keyframes descriptionTwo-opacity {
+    0%,20%{
+        opacity: 0;
+    }
+    25%,45%{
+        opacity: 100;
+    }
+    50%,70%{
+        opacity: 0;    
+    }
+    75%,100%{
+        opacity: 0;
+    }
+}
+@keyframes descriptionThree-opacity {
+    0%,20%{
+        opacity: 0;
+    }
+    25%,45%{
+        opacity: 0;
+    }
+    50%,70%{
+        opacity: 100;   
+    }
+    75%,100%{
+        opacity: 0;
+    }
+}
+@keyframes descriptionFour-opacity {
     0%,20%{
         opacity: 0;
     }

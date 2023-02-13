@@ -222,6 +222,28 @@
     transform: translateY(-3px);
   }
 }
+.descriptionOne{
+  top: 0;
+  left: 0;
+}
+.descriptionTwo{
+  top: 0;
+  left: 0;
+}
+.descriptionThree{
+  top: 0;
+  left: 0;
+  @include responsive(xs){
+    transform: translateY(-7px);
+  }
+}
+.descriptionFour{
+  top: 0;
+  left: 0;
+  @include responsive(xs){
+    transform: translateY(-3px);
+  }
+}
 
 .skill-active{
   box-shadow: 0px -12px 51px rgba(219, 152, 101, 0.19),

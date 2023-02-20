@@ -131,11 +131,8 @@
   color:$white-3;
 }
 
-.text-gradient{
-  background: linear-gradient(90deg, #DB9865 0%, rgba(168, 98, 44, 0.48) 100.67%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.text-color{
+  color: $primary-1;
 }
 //Shadow
 .text-shadow-S1{
@@ -350,8 +347,8 @@
 }
 //people
 .people{
-  width: 100%;
-  height: 90vh;
+  width: 75%;
+  height: 80vh;
   // @include responsive(xs){
   //   height: 90%;
   // }
@@ -376,6 +373,14 @@
 
 
 //Instructor
+#instructor{
+  p{
+    @include responsive (xs){
+      max-width: 280px;
+    }
+  }
+}
+
 //Photos
 
 .photos-container{
@@ -393,7 +398,7 @@
    width: 180px ;
    height: 220px;
 
-  background: url(../img/instructor1.png) center center;
+  background: url(../img/instructor7.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -405,10 +410,10 @@
 }
 
 .item2 {
-  width: 320px ;
-  height: 180px;
+  width: 200px ;
+  height: 200px;
 
-  background: url(../img/instructor2.png) center center;
+  background: url(../img/instructor9.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
 

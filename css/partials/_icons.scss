@@ -75,6 +75,13 @@
   }
 }
 
+.icon-facbook{
+  max-width: 44px;
+  @include responsive(xs){
+    max-width: 44px;
+  }
+}
+
 .title-card{
   position: relative;
   &::after{
@@ -281,23 +288,25 @@
 .icon-stars{
   width: 112px;
 }
-
+.icon-person{
+  max-width: 64px;
+}
 .icon-person1{
   left : 5%;
+  top : 35%;
 }
 .icon-person2{
-  left : 10%;
+  left : 70%;
   top : 10%;
   @include responsive(xs){
     top : 20%;
   }
 }
 .icon-person3{
-  left :30%;
+  left :10%;
   top : 15%;
 }
 .icon-person4{
-
   top : 60%;
   left :65%;
   @include responsive(xs){
@@ -305,7 +314,7 @@
   }
 }
 .icon-person5{
-  top : 5%;
+  top : 18%;
   left: 40%;
 }
 .icon-person6{

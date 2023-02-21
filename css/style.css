@@ -1442,11 +1442,11 @@ ul {
 }
 
 .icon-content-card {
-  width: 224px;
+  max-width: 224px;
 }
 @media screen and (max-width: 540px) {
   .icon-content-card {
-    width: 136px;
+    max-width: 136px;
   }
 }
 

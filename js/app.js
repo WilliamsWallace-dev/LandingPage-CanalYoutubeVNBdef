@@ -146,39 +146,39 @@ window.onload = ()=>{
 
 
  
-gsap.from(".icon-person-mov1",{
-    y:500,
-    opacity : 0,
-    scrollTrigger :{
-        trigger:".people",
-        // markers : true,
-        start:'center 125%',
-        end:'center 50%',
-        scrub:12
-    }
-})
-gsap.from(".icon-person-mov2",10,{
-    y:200,
-    opacity : 0,
-    scrollTrigger :{
-        trigger:".people",
-        // markers : true,
-        start:'center 125%',
-        end:'center 50%',
-        scrub:20
-    }
-})
-gsap.from(".icon-person-mov3",10,{
-    y:300,
-    opacity : 0,
-    scrollTrigger :{
-        trigger:".people",
-        // markers : true,
-        start:'center 125%',
-        end:'center 50%',
-        scrub:8
-    }
-})
+// gsap.from(".icon-person-mov1",{
+//     y:500,
+//     opacity : 0,
+//     scrollTrigger :{
+//         trigger:".people",
+//         // markers : true,
+//         start:'center 125%',
+//         end:'center 50%',
+//         scrub:12
+//     }
+// })
+// gsap.from(".icon-person-mov2",10,{
+//     y:200,
+//     opacity : 0,
+//     scrollTrigger :{
+//         trigger:".people",
+//         // markers : true,
+//         start:'center 125%',
+//         end:'center 50%',
+//         scrub:20
+//     }
+// })
+// gsap.from(".icon-person-mov3",10,{
+//     y:300,
+//     opacity : 0,
+//     scrollTrigger :{
+//         trigger:".people",
+//         // markers : true,
+//         start:'center 125%',
+//         end:'center 50%',
+//         scrub:8
+//     }
+// })
 
 
 

@@ -1151,8 +1151,8 @@ p {
 }
 @media screen and (max-width: 540px) {
   .depositions-card {
-    width: 360px;
-    height: 256px;
+    width: 320px;
+    height: 280px;
   }
 }
 
@@ -1179,11 +1179,11 @@ p {
   background: url(../img/instructor7.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: photo-gray1 21s ease infinite alternate-reverse;
+  animation: photo-gray1 60s ease infinite alternate-reverse;
 }
 @media screen and (max-width: 540px) {
   .item1 {
-    animation: photo-opacity1 21s ease infinite alternate-reverse;
+    animation: photo-opacity1 60s ease infinite alternate-reverse;
   }
 }
 
@@ -1193,11 +1193,11 @@ p {
   background: url(../img/instructor9.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: photo-gray2 21s ease infinite alternate-reverse;
+  animation: photo-gray2 60s ease infinite alternate-reverse;
 }
 @media screen and (max-width: 540px) {
   .item2 {
-    animation: photo-opacity2 21s ease infinite alternate-reverse;
+    animation: photo-opacity2 60s ease infinite alternate-reverse;
   }
 }
 
@@ -1207,11 +1207,11 @@ p {
   background: url(../img/instructor4.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: photo-gray3 21s ease infinite alternate-reverse;
+  animation: photo-gray3 60s ease infinite alternate-reverse;
 }
 @media screen and (max-width: 540px) {
   .item3 {
-    animation: photo-opacity3 21s ease infinite alternate-reverse;
+    animation: photo-opacity3 60s ease infinite alternate-reverse;
   }
 }
 
@@ -1224,19 +1224,19 @@ p {
 }
 
 .description-card1 {
-  animation: description-opacity1 21s ease infinite alternate-reverse;
+  animation: description-opacity1 60s ease infinite alternate-reverse;
 }
 
 .description-card2 {
   top: 0;
   left: 0;
-  animation: description-opacity2 21s ease infinite alternate-reverse;
+  animation: description-opacity2 60s ease infinite alternate-reverse;
 }
 
 .description-card3 {
   top: 0;
   left: 0;
-  animation: description-opacity3 21s ease infinite alternate-reverse;
+  animation: description-opacity3 60s ease infinite alternate-reverse;
 }
 
 .sale-section {
@@ -1481,7 +1481,6 @@ ul {
   height: 400px;
   border: 1px solid rgba(194, 124, 70, 0.64);
   border-radius: 24px;
-  background: linear-gradient(90deg, #DB9865 0%, rgba(168, 98, 44, 0.48) 100.67%);
   box-shadow: 0px 51px 126px rgba(139, 9, 48, 0.1), 0px 18.6158px 45.9921px rgba(139, 9, 48, 0.0689982), 0px 9.03764px 22.3283px rgba(139, 9, 48, 0.0556291), 0px 4.43042px 10.9457px rgba(139, 9, 48, 0.0443709), 0px 1.7518px 4.32796px rgba(139, 9, 48, 0.0310018);
   position: relative;
 }
@@ -1489,20 +1488,6 @@ ul {
   .path-video {
     width: 95%;
     height: 240px;
-  }
-}
-.path-video::after {
-  content: "";
-  position: absolute;
-  top: 20%;
-  left: 30%;
-  width: 240px;
-  height: 240px;
-}
-@media screen and (max-width: 540px) {
-  .path-video::after {
-    width: 50%;
-    height: 130px;
   }
 }
 
@@ -1663,6 +1648,11 @@ ul {
 .icon-person6 {
   top: 55%;
   left: 20%;
+}
+@media screen and (max-width: 540px) {
+  .icon-person6 {
+    left: 15%;
+  }
 }
 
 .icon-person7 {

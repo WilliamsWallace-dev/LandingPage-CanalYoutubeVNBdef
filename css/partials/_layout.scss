@@ -367,8 +367,8 @@
   border-radius: 24px;
   border: 2px solid rgba(219, 152, 101, 0.24);
   @include responsive (xs){
-    width: 360px;
-     height: 256px;
+    width: 320px;
+     height: 280px;
   }
 }
 
@@ -403,10 +403,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   
-  animation : photo-gray1 21s ease infinite alternate-reverse;
+  animation : photo-gray1 60s ease infinite alternate-reverse;
 
   @include responsive (xs){
-    animation : photo-opacity1 21s ease infinite alternate-reverse;
+    animation : photo-opacity1 60s ease infinite alternate-reverse;
   }
 }
 
@@ -418,10 +418,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  animation : photo-gray2 21s ease infinite alternate-reverse;
+  animation : photo-gray2 60s ease infinite alternate-reverse;
 
   @include responsive (xs){
-    animation : photo-opacity2 21s ease infinite alternate-reverse;
+    animation : photo-opacity2 60s ease infinite alternate-reverse;
   }
 }
 
@@ -433,10 +433,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  animation : photo-gray3 21s ease infinite alternate-reverse;
+  animation : photo-gray3 60s ease infinite alternate-reverse;
 
   @include responsive (xs){
-    animation : photo-opacity3 21s ease infinite alternate-reverse;
+    animation : photo-opacity3 60s ease infinite alternate-reverse;
   }
 }
 
@@ -472,20 +472,20 @@
 
 //Descritions Cards
 .description-card1{
-  animation: description-opacity1 21s ease infinite alternate-reverse;
+  animation: description-opacity1 60s ease infinite alternate-reverse;
 }
 .description-card2{
   top:0;
   left:0;
 
-  animation: description-opacity2 21s ease infinite alternate-reverse;
+  animation: description-opacity2 60s ease infinite alternate-reverse;
 }
 
 .description-card3{
   top:0;
   left:0;
 
-  animation: description-opacity3 21s ease infinite alternate-reverse;
+  animation: description-opacity3 60s ease infinite alternate-reverse;
 }
 
 

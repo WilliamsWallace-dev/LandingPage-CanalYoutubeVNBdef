@@ -1176,7 +1176,7 @@ p {
 .item1 {
   width: 180px;
   height: 220px;
-  background: url(../img/instructor10.png) center center;
+  background: url(../img/instructor3.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
   animation: photo-gray1 60s ease infinite alternate-reverse;
@@ -1190,7 +1190,7 @@ p {
 .item2 {
   width: 200px;
   height: 200px;
-  background: url(../img/instructor9.png) center center;
+  background: url(../img/instructor2.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
   animation: photo-gray2 60s ease infinite alternate-reverse;
@@ -1204,7 +1204,7 @@ p {
 .item3 {
   width: 180px;
   height: 180px;
-  background: url(../img/instructor4.png) center center;
+  background: url(../img/instructor1.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
   animation: photo-gray3 60s ease infinite alternate-reverse;
@@ -1481,7 +1481,7 @@ ul {
   height: 400px;
   border: 1px solid rgba(194, 124, 70, 0.64);
   border-radius: 24px;
-  box-shadow: 0px 51px 126px rgba(139, 9, 48, 0.1), 0px 18.6158px 45.9921px rgba(139, 9, 48, 0.0689982), 0px 9.03764px 22.3283px rgba(139, 9, 48, 0.0556291), 0px 4.43042px 10.9457px rgba(139, 9, 48, 0.0443709), 0px 1.7518px 4.32796px rgba(139, 9, 48, 0.0310018);
+  background: linear-gradient(90deg, #DB9865 0%, rgba(168, 98, 44, 0.48) 100.67%);
   position: relative;
 }
 @media screen and (max-width: 540px) {

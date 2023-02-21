@@ -1442,11 +1442,12 @@ ul {
 }
 
 .icon-content-card {
-  max-width: 224px;
+  width: 224px;
 }
 @media screen and (max-width: 540px) {
   .icon-content-card {
     max-width: 136px;
+    min-width: 136px;
   }
 }
 
@@ -1479,9 +1480,6 @@ ul {
 .path-video {
   width: 712px;
   height: 400px;
-  border: 1px solid rgba(194, 124, 70, 0.64);
-  border-radius: 24px;
-  background: linear-gradient(90deg, #DB9865 0%, rgba(168, 98, 44, 0.48) 100.67%);
   position: relative;
 }
 @media screen and (max-width: 540px) {
@@ -1599,7 +1597,7 @@ ul {
 }
 
 .icon-hotmart {
-  max-width: 128px;
+  max-width: 24px;
 }
 
 .icon-stars {
@@ -1971,8 +1969,9 @@ ul {
 }
 
 .circle5 {
-  top: 1400px;
+  top: 1200px;
   left: 37%;
+  opacity: 1;
   animation: cicleBlur 24s ease 3s infinite alternate-reverse;
   animation-fill-mode: both;
 }

@@ -98,10 +98,11 @@
 }
 
 .icon-content-card{
-  max-width: 224px;
+  width: 224px;
 
   @include responsive(xs){
     max-width: 136px;
+    min-width: 136px;
   }
 }
 
@@ -145,33 +146,7 @@
     width: 95% ;
     height: 240px;
   }
-
-  border: 1px solid rgba(194, 124, 70, 0.64);
-  border-radius: 24px;
-  background: linear-gradient(90deg, #DB9865 0%, rgba(168, 98, 44, 0.48) 100.67%);
-
-  // box-shadow: 0px 51px 126px rgba(139, 9, 48, 0.1),
-  //  0px 18.6158px 45.9921px rgba(139, 9, 48, 0.0689982),
-  //   0px 9.03764px 22.3283px rgba(139, 9, 48, 0.0556291),
-  //    0px 4.43042px 10.9457px rgba(139, 9, 48, 0.0443709),
-  //     0px 1.7518px 4.32796px rgba(139, 9, 48, 0.0310018);
-
   position: relative;
-  // &::after{
-  //   content: '';
-  //   position: absolute;
-  //   top: 20%;
-  //   left: 30%;
-
-  //   width: 240px;
-  //   height: 240px;
-
-  //   @include responsive(xs){
-  //     width: 50% ;
-  //     height: 130px;
-  //   }
- 
-  // }
 }
 //Content grid
 
@@ -275,7 +250,7 @@
 //Peaple
 
 .icon-hotmart{
-  max-width: 128px;
+  max-width: 24px;
 }
 
 .icon-stars{

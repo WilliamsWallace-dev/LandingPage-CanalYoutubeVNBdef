@@ -47,6 +47,8 @@
   min-width: 36px;
   padding: .5rem;
   margin-right: 0.5rem;
+  fill: $primary-3;
+  fill-opacity: 0;
   @include responsive(xs){
     max-width: 40px;
     min-width: 36px;
@@ -56,15 +58,11 @@
   }
   cursor: pointer;
 
-  transition: .5s ease;
+  transition: 1s ease;
   &:hover{
     transform: scale(1.02) translate3d(0,-2px,0);
-    filter: drop-shadow(0px -12px 51px rgba(219, 152, 101, 0.19)) 
-    drop-shadow(0px -4.3802px 18.6158px rgba(219, 152, 101, 0.131096)) 
-    drop-shadow(0px -2.1265px 9.03764px rgba(219, 152, 101, 0.105695)) 
-    drop-shadow(0px -1.04245px 4.43042px rgba(219, 152, 101, 0.0843048)) 
-    drop-shadow(0px -0.412187px 1.7518px rgba(219, 152, 101, 0.0589035));
-    
+    filter: drop-shadow(0px 2px 4px rgba(247, 244, 242, 0.32)) ;
+    fill-opacity: 100;
 } 
 }
 
@@ -75,8 +73,8 @@
   }
 }
 
-.icon-facbook{
-  max-width: 44px;
+.icon-facebook{
+  max-height: 44px;
   @include responsive(xs){
     max-width: 44px;
   }
@@ -309,7 +307,7 @@
 .icon-person4{
   top : 60%;
   left :65%;
-  @include responsive(xs){
+  @include responsive(xs){ 
     top : 60%;
   }
 }

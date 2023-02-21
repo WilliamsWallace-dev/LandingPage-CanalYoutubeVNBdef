@@ -358,6 +358,7 @@
 .depositions-card{
   width: 376px;
   height: 216px;
+  
   box-shadow: 0px 9px 29px rgba(219, 152, 101, 0.05),
    0px 3.28515px 10.5855px rgba(219, 152, 101, 0.0344991),
     0px 1.59488px 5.13905px rgba(219, 152, 101, 0.0278145),
@@ -366,8 +367,8 @@
   border-radius: 24px;
   border: 2px solid rgba(219, 152, 101, 0.24);
   @include responsive (xs){
-    width: 320px;
-     height: 216px;
+    width: 360px;
+     height: 256px;
   }
 }
 

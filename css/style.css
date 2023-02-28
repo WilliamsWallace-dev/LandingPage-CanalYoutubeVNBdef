@@ -773,7 +773,7 @@ p {
 }
 @media screen and (max-width: 380px) {
   .btn-1 {
-    padding: 16px 20px;
+    padding: 16px 16px;
   }
 }
 .btn-1:hover {
@@ -816,7 +816,7 @@ p {
 }
 @media screen and (max-width: 380px) {
   .btn-2 {
-    padding: 16px 20px;
+    padding: 16px 16px;
   }
 }
 .btn-2:hover {

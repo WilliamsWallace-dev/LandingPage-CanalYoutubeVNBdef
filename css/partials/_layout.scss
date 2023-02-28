@@ -190,7 +190,7 @@
 .svg-bg-hero{
   width: 100%;
   @include responsive(s){
-    width: 150%;
+    width: 250%;
     transform: translateX(-40%);
   }
   @include responsive(xs){
@@ -203,7 +203,7 @@
   width: 100%;
   height : 100vh;
   @include responsive(xs){
-    height: 100%;
+    height: 100vh;
   }
 }
 .hero-container{
@@ -214,6 +214,20 @@
     height: 80vh;
     padding: 0px 16px;
     flex-direction: column;
+  }
+
+  @media screen and (max-width : 380px){
+    height: 95vh;
+    // .esdras-hero{
+    //   width: 80%;
+    // }
+  }
+
+  .inline-block{
+    @include responsive(s){
+      display: block;
+      text-align: center;
+  }
   }
   .btn-2{
     @include responsive(s){
@@ -228,7 +242,11 @@
       flex-direction: column;
     }
   }
+  
   p,h1{
+    @include responsive(s){
+      text-align: center;
+    }
     @include responsive(xs){
       text-align: center;
     }
@@ -250,9 +268,11 @@
   h3{
     text-align: center;
   }
-  // @include responsive(xs){
-  //   margin
-  // }
+  @media screen and (max-width : 380px){
+    height: 120vh;
+    margin-top: 136px;
+    
+  }
 }
 
 .bg-path{
@@ -271,10 +291,28 @@
   background-color: $black-1 ;
 
   box-shadow: 0px 27px 68px rgba(219, 152, 101, 0.06), 0px 9.85544px 24.8211px rgba(219, 152, 101, 0.0413989), 0px 4.78464px 12.0502px rgba(219, 152, 101, 0.0333774), 0px 2.34552px 5.90723px rgba(219, 152, 101, 0.0266226), 0px 0.927421px 2.33573px rgba(219, 152, 101, 0.0186011);
-      
+
+  @include responsive(s){
+    width: 240px ;
+    height: 100px;
+
+    & p{
+      font-size: 20px;
+    }
+
+    border:none;
+  
+    background-color: transparent;
+  
+    box-shadow: none
+  }
     @include responsive(xs){
       width: 184px ;
       height: 40px;
+
+      & p{
+        font-size: 16px;
+      }
 
       border:none;
     
@@ -366,6 +404,10 @@
       0px 0.30914px 0.996119px rgba(219, 152, 101, 0.0155009);
   border-radius: 24px;
   border: 2px solid rgba(219, 152, 101, 0.24);
+  @include responsive (s){
+    width: 320px;
+    height: 280px;
+  }
   @include responsive (xs){
     width: 320px;
      height: 280px;
@@ -495,10 +537,14 @@
 
 .sale-section{
   width: 100%;
-  height: 90vh;
+  
 
   .btn-1,.btn-2{
     margin : 1rem;
+  }
+
+  @media screen and (max-width : 380px){
+    height: 100vh;
   }
 }
 // .bg-sale{
@@ -529,6 +575,10 @@
 .svg-bg-sale{
   width: 100%;
 
+  @include responsive(s) {
+    width: 240%;
+    transform: translate3d(-5% ,0% , 0);
+  }
   @include responsive(xs) {
     width: 350%;
     transform: translate3d(-5% , 3% , 0);

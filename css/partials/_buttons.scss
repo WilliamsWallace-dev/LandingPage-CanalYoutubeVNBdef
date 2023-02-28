@@ -26,6 +26,10 @@
         // margin-top: 24px;
         margin: 12px 8px;
     }
+
+    @media screen and (max-width : 380px){
+        padding: 16px 20px ;
+      }
     
     transition : .5s ease;
     &:hover{
@@ -43,18 +47,9 @@
     margin: 24px 12px;
     border: none;
 
-    @include responsive(s){
-        margin: 12px 8px;
-    }
-
     text-decoration: none;
 
     cursor: pointer;
-
-    transition : .5s ease;
-    &:hover{
-        transform : scale(0.98);
-    }
 
     position: relative;
 
@@ -76,6 +71,16 @@
         max-width: 240px;
         height: 52px;
         padding: 16px 24px ;
+        margin: 12px 8px;
+    }
+
+    @media screen and (max-width : 380px){
+        padding: 16px 20px ;
+      }
+
+    transition : .5s ease;
+    &:hover{
+        transform : scale(0.98);
     }
 
     &::before{   

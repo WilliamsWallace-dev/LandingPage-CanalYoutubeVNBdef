@@ -771,6 +771,11 @@ p {
     margin: 12px 8px;
   }
 }
+@media screen and (max-width: 380px) {
+  .btn-1 {
+    padding: 16px 20px;
+  }
+}
 .btn-1:hover {
   transform: scale(0.98);
   box-shadow: 0px 9px 19px rgba(247, 244, 242, 0.13), 0px 3.28515px 6.93531px rgba(247, 244, 242, 0.0896976), 0px 1.59488px 3.36697px rgba(247, 244, 242, 0.0723178), 0px 0.781839px 1.65055px rgba(247, 244, 242, 0.0576822), 0px 0.30914px 0.65263px rgba(247, 244, 242, 0.0403024);
@@ -782,7 +787,6 @@ p {
   border: none;
   text-decoration: none;
   cursor: pointer;
-  transition: 0.5s ease;
   position: relative;
   max-width: 232px;
   height: 56px;
@@ -796,15 +800,8 @@ p {
   line-height: 140%;
   font-weight: 400;
   text-transform: none;
+  transition: 0.5s ease;
   transition: 0.7s ease;
-}
-@media screen and (max-width: 960px) {
-  .btn-2 {
-    margin: 12px 8px;
-  }
-}
-.btn-2:hover {
-  transform: scale(0.98);
 }
 @media screen and (max-width: 960px) {
   .btn-2 {
@@ -814,7 +811,16 @@ p {
     max-width: 240px;
     height: 52px;
     padding: 16px 24px;
+    margin: 12px 8px;
   }
+}
+@media screen and (max-width: 380px) {
+  .btn-2 {
+    padding: 16px 20px;
+  }
+}
+.btn-2:hover {
+  transform: scale(0.98);
 }
 .btn-2::before {
   content: "";
@@ -998,7 +1004,7 @@ p {
 }
 @media screen and (max-width: 960px) {
   .svg-bg-hero {
-    width: 150%;
+    width: 250%;
     transform: translateX(-40%);
   }
 }
@@ -1015,7 +1021,7 @@ p {
 }
 @media screen and (max-width: 540px) {
   .hero {
-    height: 100%;
+    height: 100vh;
   }
 }
 
@@ -1030,6 +1036,17 @@ p {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 380px) {
+  .hero-container {
+    height: 95vh;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hero-container .inline-block {
+    display: block;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 960px) {
   .hero-container .btn-2 {
     display: none;
@@ -1041,6 +1058,11 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hero-container p, .hero-container h1 {
+    text-align: center;
   }
 }
 @media screen and (max-width: 540px) {
@@ -1065,6 +1087,12 @@ p {
 .path h3 {
   text-align: center;
 }
+@media screen and (max-width: 380px) {
+  .path {
+    height: 120vh;
+    margin-top: 136px;
+  }
+}
 
 .bg-path {
   position: absolute;
@@ -1079,6 +1107,18 @@ p {
   background-color: #2B1D14;
   box-shadow: 0px 27px 68px rgba(219, 152, 101, 0.06), 0px 9.85544px 24.8211px rgba(219, 152, 101, 0.0413989), 0px 4.78464px 12.0502px rgba(219, 152, 101, 0.0333774), 0px 2.34552px 5.90723px rgba(219, 152, 101, 0.0266226), 0px 0.927421px 2.33573px rgba(219, 152, 101, 0.0186011);
 }
+@media screen and (max-width: 960px) {
+  .path-card {
+    width: 240px;
+    height: 100px;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .path-card p {
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 540px) {
   .path-card {
     width: 184px;
@@ -1086,6 +1126,9 @@ p {
     border: none;
     background-color: transparent;
     box-shadow: none;
+  }
+  .path-card p {
+    font-size: 16px;
   }
 }
 
@@ -1148,6 +1191,12 @@ p {
   box-shadow: 0px 9px 29px rgba(219, 152, 101, 0.05), 0px 3.28515px 10.5855px rgba(219, 152, 101, 0.0344991), 0px 1.59488px 5.13905px rgba(219, 152, 101, 0.0278145), 0px 0.781839px 2.51926px rgba(219, 152, 101, 0.0221855), 0px 0.30914px 0.996119px rgba(219, 152, 101, 0.0155009);
   border-radius: 24px;
   border: 2px solid rgba(219, 152, 101, 0.24);
+}
+@media screen and (max-width: 960px) {
+  .depositions-card {
+    width: 320px;
+    height: 280px;
+  }
 }
 @media screen and (max-width: 540px) {
   .depositions-card {
@@ -1241,10 +1290,14 @@ p {
 
 .sale-section {
   width: 100%;
-  height: 90vh;
 }
 .sale-section .btn-1, .sale-section .btn-2 {
   margin: 1rem;
+}
+@media screen and (max-width: 380px) {
+  .sale-section {
+    height: 100vh;
+  }
 }
 
 .bg-sale {
@@ -1257,6 +1310,12 @@ p {
 
 .svg-bg-sale {
   width: 100%;
+}
+@media screen and (max-width: 960px) {
+  .svg-bg-sale {
+    width: 240%;
+    transform: translate3d(-5%, 0%, 0);
+  }
 }
 @media screen and (max-width: 540px) {
   .svg-bg-sale {
@@ -1538,7 +1597,7 @@ ul {
 }
 
 .skillFour {
-  top: 0;
+  top: -2px;
   left: 0;
   animation: skillFour-opacity 30s ease infinite both alternate-reverse;
 }
